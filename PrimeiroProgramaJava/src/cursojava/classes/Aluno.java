@@ -13,3 +13,4 @@ public class Aluno {
 	String nomeEscola; 
 	String serieMatriculado;
 }
+ 
