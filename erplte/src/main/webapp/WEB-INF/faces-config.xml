@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config
+    xmlns="https://jakarta.ee/xml/ns/jakartaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-facesconfig_4_0.xsd"
+    version="4.0">
+
+    <!-- Aqui dentro do faces-config, você adicionaria suas configurações específicas de JSF,
+         como managed beans (se não estiver usando anotações), navegadores, conversores, etc. -->
+
+    <!-- Exemplo de um managed bean, se não estiver usando anotações: -->
+    <!--
+    <managed-bean>
+        <managed-bean-name>meuBean</managed-bean-name>
+        <managed-bean-class>com.erplte.beans.MeuBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    -->
+
+</faces-config>
