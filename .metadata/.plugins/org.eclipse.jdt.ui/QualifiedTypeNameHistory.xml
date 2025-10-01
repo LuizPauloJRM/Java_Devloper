@@ -2,4 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"/>
     <fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
+    <fullyQualifiedTypeName name="javax.faces.bean.ViewScoped"/>
+    <fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
 </qualifiedTypeNameHistroy>

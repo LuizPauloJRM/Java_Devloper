@@ -1,45 +1,47 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
+<!-- 
+    PÃ¡gina JSF para Cadastro de UsuÃ¡rio
+    - Usa Expression Language (EL) para acessar atributos e mÃ©todos do Bean
+    - Exemplo: #{pessoaBean.nome} â†’ acessa atributo "nome"
+    - Rodar : http://localhost:8080/primeiroprojetojsf/primeirapagina.jsf
+-->
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html">
 
 <h:head>
-    <h:title>Cadastro de Usuários</h:title>
+    <title>Cadastro de UsuÃ¡rios</title>
 </h:head>
 
 <h:body>
-
+    <!-- FormulÃ¡rio JSF -->
     <h:form id="formPessoa">
-        <h1>Dados do Usuário</h1>
 
-        <!-- Atributo nome para carregar os dados com Expression Language JSF -->
-        <!-- Sintaxe: #{managedBean.atributo} , #{managedBean.acao} -->
+        <h1>Dados do UsuÃ¡rio</h1>
 
+        <!-- Campo Nome: vinculado ao atributo "nome" do Bean -->
         Nome:
-        <!-- Amarrando com binding: as mudanças do backend (objetos) serão refletidas na página JSF -->
-        <h:commandButton binding="#{pessoaBean.commandButton}" 
-                         value="Adicionar Nome" 
-                         action="#{pessoaBean.addNome}" />
-
         <h:inputText id="campoNome" value="#{pessoaBean.nome}" />
-        <br />
-       <h:dataTable></h:dataTable>
+        <br/><br/>
 
+        <!-- Campo Sobrenome: vinculado ao atributo "sobrenome" do Bean -->
         Sobrenome:
         <h:inputText id="sobrenome" value="#{pessoaBean.sobrenome}" />
-        <br />
+        <br/><br/>
 
-        <!-- Mostra o valor concatenado do nome completo -->
-        <h:outputText value="#{pessoaBean.nomeCompleto}" />
-        <br />
+        <!-- Exibe dinamicamente o valor do atributo "nomeCompleto" -->
+        <h:outputText value="#{pessoaBean.nomeCompleto}" style="font-weight:bold; color:blue;" />
+        <br/><br/>
 
-        <!-- Realizar ação com botão de comando (action chama o método no ManagedBean) -->
-        <h:commandButton value="Mostrar Nome"
-                         action="#{pessoaBean.mostrarNome}" />
-        <br />
+        <!-- BotÃ£o que chama mÃ©todo mostrarNome() do Bean -->
+        <h:commandButton value="Mostrar Nome" action="#{pessoaBean.mostrarNome}" />
+
+        <!-- BotÃ£o que chama mÃ©todo addNome() do Bean e altera o texto do botÃ£o -->
+        <h:commandButton value="Adicionar Nome" 
+                         action="#{pessoaBean.addNome}" 
+                         binding="#{pessoaBean.commandButton}" />
     </h:form>
-
 </h:body>
 </html>
