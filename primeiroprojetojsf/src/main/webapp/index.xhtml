@@ -4,17 +4,27 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:h="http://java.sun.com/jsf/html">
+<script>
+	function alterarValorDoCampo() {
+		var campo = document.getElementById('formPessoa:nome')
+		campo.value = "(Clicou no campo";
+
+	}
+</script>
 
 <h:head>
 	<h:title>Cadastro de Usuários</h:title>
 </h:head>
 
 <h:body>
+	<!-- ID : Sempre especificar para localizar -->
 
 	<h:form id="formPessoa">
+		<h:inputText id="nome" />
 		<h1>Dados do Usuário</h1>
 		<h:commandButton value="Navegar" action="primeirapagina" />
-		
+		<h:commandButton value="Clicar" onclick="alterarValorDoCampo();"/>
+
 
 
 	</h:form>
