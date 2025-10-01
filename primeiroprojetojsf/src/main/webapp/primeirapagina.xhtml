@@ -1,19 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:h="http://java.sun.com/jsf/html">
 <h:head>
-	<h:title>Cadastro de Usu√°rios</h:title>
+	<h:title>Cadastro de Usu·rios</h:title>
 </h:head>
 <h:body>
 
 	<h:form id="formPessoa">
-		<h1>Cadastro de usu√°rios</h1>
-		<h:inputText id="campoNome"></h:inputText>
+		<h1>Dados do Usu·rio</h1>
+		<!-- Atributo nome para carregar os dados .Expression Language JSF -->
+		<!-- {managedBean.atributo} , {managedBean.acao} -->
+		Nome:
+		<h:inputText id="campoNome" value="#{pessoaBean.nome}" />
 		<br />
-		<h:outputText value="Teste jsf" />
+		Sobrenome:
+		<h:inputText id="sobrenome" value="#{pessoaBean.sobrenome}" />
 		<br />
-		<h:commandButton value="Entrar" />
+		<h:outputText value="#{pessoaBean.nomeCompleto}" />
+		<br />
+		<!-- Realizar aÁ„o bot„o de comando "Action"-->
+		<h:commandButton value="Mostrar Nome"
+			action="#{pessoaBean.mostrarNome}" />
+		<br />
 	</h:form>
 </h:body>
 </html>
