@@ -41,7 +41,7 @@ public class pessoaBean {
 			commandButton.setValue("Nome já adicionado!");
 			// commandButton.setDisabled(true); // Caso queira desativar o botão após clique
 		}
-		
+		//Null ou vazio mesma página
 		return "";
 	}
 
