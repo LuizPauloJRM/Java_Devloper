@@ -9,39 +9,45 @@
     - Rodar : http://localhost:8080/primeiroprojetojsf/primeirapagina.jsf
 -->
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://java.sun.com/jsf/html">
+	xmlns:h="http://java.sun.com/jsf/html">
 
 <h:head>
-    <title>Cadastro de Usuários</title>
+	<title>Cadastro de Usuários</title>
 </h:head>
 
 <h:body>
-    <!-- Formulário JSF -->
-    <h:form id="formPessoa">
+	<!-- Formulário JSF -->
 
-        <h1>Dados do Usuário</h1>
+	<h:form id="formPessoa">
 
-        <!-- Campo Nome: vinculado ao atributo "nome" do Bean -->
+		<h1>Dados do Usuário</h1>
+
+		<!-- Campo Nome: vinculado ao atributo "nome" do Bean --> 
+     
         Nome:
         <h:inputText id="campoNome" value="#{pessoaBean.nome}" />
-        <br/><br/>
+		<br />
+		<br />
 
-        <!-- Campo Sobrenome: vinculado ao atributo "sobrenome" do Bean -->
+		<!-- Campo Sobrenome: vinculado ao atributo "sobrenome" do Bean -->
         Sobrenome:
         <h:inputText id="sobrenome" value="#{pessoaBean.sobrenome}" />
-        <br/><br/>
+		<br />
+		<br />
 
-        <!-- Exibe dinamicamente o valor do atributo "nomeCompleto" -->
-        <h:outputText value="#{pessoaBean.nomeCompleto}" style="font-weight:bold; color:blue;" />
-        <br/><br/>
+		<!-- Exibe dinamicamente o valor do atributo "nomeCompleto" -->
+		<h:outputText value="#{pessoaBean.nomeCompleto}"
+			style="font-weight:bold; color:blue;" />
+		<br />
+		<br />
 
-        <!-- Botão que chama método mostrarNome() do Bean -->
-        <h:commandButton value="Mostrar Nome" action="#{pessoaBean.mostrarNome}" />
+		<!-- Botão que chama método mostrarNome() do Bean -->
+		<h:commandButton value="Mostrar Nome"
+			action="#{pessoaBean.mostrarNome}" />
 
-        <!-- Botão que chama método addNome() do Bean e altera o texto do botão -->
-        <h:commandButton value="Adicionar Nome" 
-                         action="#{pessoaBean.addNome}" 
-                         binding="#{pessoaBean.commandButton}" />
-    </h:form>
+		<!-- Botão que chama método addNome() do Bean e altera o texto do botão -->
+		<h:commandButton value="Adicionar Nome" action="#{pessoaBean.addNome}"
+			binding="#{pessoaBean.commandButton}" />
+	</h:form>
 </h:body>
 </html>
