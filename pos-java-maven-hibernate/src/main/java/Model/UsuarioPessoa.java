@@ -4,11 +4,16 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.SequenceGenerator;
 
 @Entity
+@Table(name = "usuario_pessoa") // garante nome fixo da tabela
 public class UsuarioPessoa {
+
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@SequenceGenerator(name = "usuario_pessoa_seq", sequenceName = "usuario_pessoa_id_seq", allocationSize = 1)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "usuario_pessoa_seq")
 	private Long id;
 
 	private String nome;
@@ -17,17 +22,16 @@ public class UsuarioPessoa {
 	private String login;
 	private String senha;
 	private int idade;
-	
 
-	
-	/* Setters e Getters */
+	/* Getters e Setters */
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
+
 	public int getIdade() {
 		return idade;
 	}
-	
+
 	public Long getId() {
 		return id;
 	}
@@ -76,4 +80,9 @@ public class UsuarioPessoa {
 		this.senha = senha;
 	}
 
+	@Override
+	public String toString() {
+		return "UsuarioPessoa [id=" + id + ", nome=" + nome + ", sobrenome=" + sobrenome + ", email=" + email
+				+ ", login=" + login + ", senha=" + senha + ", idade=" + idade + "]";
+	}
 }

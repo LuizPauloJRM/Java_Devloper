@@ -4,4 +4,16 @@
     <fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
     <fullyQualifiedTypeName name="javax.faces.bean.ViewScoped"/>
     <fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
+    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="posjavamavenhibernate.HibernateUtil"/>
+    <fullyQualifiedTypeName name="dao.DaoGeneric"/>
+    <fullyQualifiedTypeName name="Model.UsuarioPessoa"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
 </qualifiedTypeNameHistroy>

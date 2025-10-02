@@ -16,7 +16,7 @@
 
 			<!-- Linguagem : Dialeto (ajuda o Hibernate a gerar SQL para PostgreSQL) -->
 			<property name="hibernate.dialect"
-				value="org.hibernate.dialect.PostgreSQLDialect" />
+				value="org.hibernate.dialect.PostgreSQL95Dialect" />
 
 			<!-- Usuário e senha -->
 			<property name="hibernate.connection.username"
