@@ -8,14 +8,21 @@
 		<properties>
 			<!-- Dados de conexão com banco de dados -->
 			<property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
-			<property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/posjavahibernate"/>
-			<!-- Linguagem : Dialeto -->
+			<property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5433/posjavahibernate"/>
+			
+			<!-- Linguagem : Dialeto (ajuda o Hibernate a gerar SQL para PostgreSQL) -->
 			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+			
 			<!-- Usuário e senha -->
 			<property name="hibernate.connection.username" value="postgres"/>
 			<property name="hibernate.connection.password" value="admin"/>
-			<!-- Propriedade atualizar tabela -->
-			<property name="hibernate.hbm2dll.auto" value="update"/>
+			
+			<!-- Propriedade atualizar tabela (corrigido de hbm2dll para hbm2ddl) -->
+			<property name="hibernate.hbm2ddl.auto" value="update"/>
+			
+			<!-- Mostrar o SQL gerado no console -->
+			<property name="hibernate.show_sql" value="true"/>
+			<property name="hibernate.format_sql" value="true"/>
 		</properties>
 	</persistence-unit>
 </persistence>
