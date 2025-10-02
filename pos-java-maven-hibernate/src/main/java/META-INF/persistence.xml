@@ -3,26 +3,32 @@
 	xmlns="http://xmlns.jcp.org/xml/ns/persistence"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
-	
+
 	<persistence-unit name="pos-java-maven-hibernate">
+		<!-- Declaração do arquivo de persistencia -->
+		<class>Model.UsuarioPessoa</class>
 		<properties>
 			<!-- Dados de conexão com banco de dados -->
-			<property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
-			<property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5433/posjavahibernate"/>
-			
+			<property name="hibernate.connection.driver_class"
+				value="org.postgresql.Driver" />
+			<property name="hibernate.connection.url"
+				value="jdbc:postgresql://localhost:5433/posjavahibernate" />
+
 			<!-- Linguagem : Dialeto (ajuda o Hibernate a gerar SQL para PostgreSQL) -->
-			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
-			
+			<property name="hibernate.dialect"
+				value="org.hibernate.dialect.PostgreSQLDialect" />
+
 			<!-- Usuário e senha -->
-			<property name="hibernate.connection.username" value="postgres"/>
-			<property name="hibernate.connection.password" value="admin"/>
-			
-			<!-- Propriedade atualizar tabela (corrigido de hbm2dll para hbm2ddl) -->
-			<property name="hibernate.hbm2ddl.auto" value="update"/>
-			
+			<property name="hibernate.connection.username"
+				value="postgres" />
+			<property name="hibernate.connection.password" value="admin" />
+
+			<!-- Propriedade para validar/atualizar a tabela. O valor 'update' permite que o Hibernate crie ou atualize o esquema do banco de dados com base nas suas entidades. -->
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+
 			<!-- Mostrar o SQL gerado no console -->
-			<property name="hibernate.show_sql" value="true"/>
-			<property name="hibernate.format_sql" value="true"/>
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.format_sql" value="false" />
 		</properties>
 	</persistence-unit>
 </persistence>
