@@ -6,7 +6,7 @@
 	<groupId>primeiroprojetojsf</groupId>
 	<artifactId>primeiroprojetojsf</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>primeiroprojetojsf</name>
 	<url>http://maven.apache.org</url>
@@ -16,9 +16,13 @@
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
 		<hibernate.version>6.1.7.Final</hibernate.version>
-		<jakarta.faces.version>2.3.14</jakarta.faces.version>
+		<jakarta.faces.version>4.0.1</jakarta.faces.version>
+		<jakarta.cdi.version>4.0.1</jakarta.cdi.version> <!-- RE-ADICIONADO:
+		Versão do CDI para consistência com implementação -->
 		<postgresql.version>42.5.4</postgresql.version>
 		<junit.version>4.13.2</junit.version>
+		<weld.version>5.1.2.Final</weld.version> <!-- NOVO: Versão do Weld para
+		CDI implementation -->
 	</properties>
 
 	<dependencies>
@@ -36,11 +40,39 @@
 			<version>3.1.0</version>
 		</dependency>
 
-		<!-- Dependências do Jakarta Faces (a nova versão do JSF) -->
+		<!-- API do CDI (necessária para compilar, mas a implementação virá com
+		Weld) -->
+		<dependency>
+			<groupId>jakarta.enterprise</groupId>
+			<artifactId>jakarta.enterprise.cdi-api</artifactId>
+			<version>${jakarta.cdi.version}</version>
+			<scope>provided</scope> <!-- A API é provida pelo container, mas para
+			compilação é útil -->
+		</dependency>
+
+		<!-- Implementação do CDI para Tomcat (Weld Servlet) - NECESSÁRIO! -->
+		<dependency>
+			<groupId>org.jboss.weld.servlet</groupId>
+			<artifactId>weld-servlet-shaded</artifactId>
+			<version>${weld.version}</version>
+			<scope>compile</scope> <!-- Isso empacota o Weld no seu WAR -->
+		</dependency>
+
+		<!-- Dependências da API do Jakarta Faces (JSF) -->
+		<dependency>
+			<groupId>jakarta.faces</groupId>
+			<artifactId>jakarta.faces-api</artifactId>
+			<version>${jakarta.faces.version}</version>
+			<scope>provided</scope> <!-- A API é provida pelo container, mas para
+			compilação é útil -->
+		</dependency>
+
+		<!-- Implementação do Jakarta Faces (Mojarra) - NECESSÁRIO! -->
 		<dependency>
 			<groupId>org.glassfish</groupId>
 			<artifactId>jakarta.faces</artifactId>
 			<version>${jakarta.faces.version}</version>
+			<scope>compile</scope> <!-- Isso empacota o Mojarra no seu WAR -->
 		</dependency>
 
 		<!-- Driver JDBC para PostgreSQL (versão atualizada e compatível) -->
@@ -49,7 +81,6 @@
 			<artifactId>postgresql</artifactId>
 			<version>${postgresql.version}</version>
 		</dependency>
-
 
 		<!-- Dependência para testes (versão mais recente do JUnit 4) -->
 		<dependency>

@@ -1,94 +1,53 @@
 package br.com.cursojsf;
 
-import javax.faces.bean.ManagedBean;
-import javax.faces.bean.ViewScoped;
-import javax.faces.component.html.HtmlCommandButton;
-import java.io.Serializable;
+// Importações corretas para Jakarta EE
+import jakarta.faces.view.ViewScoped; // Anotação de escopo do JSF para Jakarta Faces
+import jakarta.inject.Named;
+
+import java.io.Serializable; // Import necessário para beans @ViewScoped e @SessionScoped
+
+// Dependências do seu projeto
+import br.com.dao.DaoGeneric;
+import br.com.entidades.Pessoa;
 
 /**
  * Classe PessoaBean - Controlador JSF
- * 
- * @ManagedBean → Torna essa classe um Bean gerenciado pelo JSF,
- *                permitindo que seja acessado nas páginas .xhtml.
- * 
- * ESCOPOS DISPONÍVEIS:
- *  - @NoneScoped        → Cada vez que for chamado é criada uma nova instância (vida curtíssima).
+ *
+ * @Named → Torna essa classe um Bean gerenciado pelo CDI,
+ *          permitindo que seja acessado nas páginas .xhtml.
+ *          É o substituto moderno para a antiga anotação @ManagedBean.
+ *
+ * ESCOPOS DISPONÍVEIS (CDI):
+ *  - @Dependent         → Ciclo de vida dependente do objeto que o injeta (padrão se nenhum escopo for especificado).
  *  - @RequestScoped     → Vida curta: dura apenas 1 requisição (resposta enviada → Bean destruído).
- *  - @ViewScoped        → Vive enquanto a tela estiver aberta. Ao atualizar a página, mantém os dados.
+ *  - @ViewScoped        → (Do JSF) Vive enquanto a tela estiver aberta. Ao atualizar a página, mantém os dados.
  *  - @SessionScoped     → Mantém a instância durante toda a sessão do usuário (enquanto não der logout/fechar navegador).
  *  - @ApplicationScoped → Compartilha a mesma instância entre todos os usuários do sistema.
- * 
- * OBS: Quando usamos @ViewScoped ou @SessionScoped, a classe precisa implementar Serializable.
+ *
+ * OBS: Quando usamos @ViewScoped, @SessionScoped ou @ApplicationScoped, a classe precisa implementar Serializable.
  */
-@ManagedBean(name = "pessoaBean")  // Nome usado no XHTML: #{pessoaBean}
-@ViewScoped                       // Mantém o Bean ativo enquanto a tela estiver aberta
-public class PessoaBean implements Serializable {
+@Named
+@ViewScoped // Mantém o Bean ativo enquanto a tela estiver aberta.
+public class PessoaBean implements Serializable { // Implemente Serializable para ViewScoped
 
-    private static final long serialVersionUID = 1L; // Requisito do @ViewScoped
+    private static final long serialVersionUID = 1L; // Necessário para Serializable
 
-    // Atributos do formulário
-    private String nome;
-    private String sobrenome;
-    private String nomeCompleto;
+    private Pessoa pessoa = new Pessoa();
+    private DaoGeneric<Pessoa> daoGeneric = new DaoGeneric<Pessoa>();
 
-    // Binding: permite controlar o botão da tela diretamente no backend
-    private HtmlCommandButton commandButton;
-
-    /**
-     * Método mostrarNome()
-     * Concatena nome + sobrenome e salva no atributo nomeCompleto.
-     * Retorna "" → permanece na mesma página.
-     */
-    public String mostrarNome() {
-        nomeCompleto = nome + " " + sobrenome;
-        return "";
+    public void salvar() {
+        daoGeneric.salvar(pessoa);
+        // Limpa o objeto pessoa após salvar para deixar o formulário pronto para um novo cadastro
+        this.pessoa = new Pessoa();
     }
 
-    /**
-     * Método addNome()
-     * Simula a adição de um nome e altera o texto do botão via binding.
-     */
-    public String addNome() {
-        nomeCompleto = "Adicionado: " + nome + " " + sobrenome;
-
-        if (commandButton != null) {
-            commandButton.setValue("Nome já adicionado!");
-            // commandButton.setDisabled(true); // Exemplo: desativar botão após clique
-        }
-        return "";
+    public Pessoa getPessoa() {
+        return pessoa;
     }
 
-    // ===================== Getters e Setters ======================
-
-    public void setCommandButton(HtmlCommandButton commandButton) {
-        this.commandButton = commandButton;
+    public void setPessoa(Pessoa pessoa) {
+        this.pessoa = pessoa;
     }
 
-    public HtmlCommandButton getCommandButton() {
-        return commandButton;
-    }
-
-    public String getNomeCompleto() {
-        return nomeCompleto;
-    }
-
-    public void setNomeCompleto(String nomeCompleto) {
-        this.nomeCompleto = nomeCompleto;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getSobrenome() {
-        return sobrenome;
-    }
-
-    public void setSobrenome(String sobrenome) {
-        this.sobrenome = sobrenome;
-    }
+    // Você pode adicionar outros métodos aqui, como carregar lista de pessoas, deletar, etc.
 }
