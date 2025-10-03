@@ -5,15 +5,17 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.persistence.SequenceGenerator;
 
+/**
+ * Classe que representa a tabela usuario_pessoa no banco de dados. Contém os
+ * atributos e anotações JPA para persistência.
+ */
 @Entity
 @Table(name = "usuario_pessoa") // garante nome fixo da tabela
 public class UsuarioPessoa {
 
 	@Id
-	@SequenceGenerator(name = "usuario_pessoa_seq", sequenceName = "usuario_pessoa_id_seq", allocationSize = 1)
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "usuario_pessoa_seq")
+	@GeneratedValue(strategy = GenerationType.IDENTITY) // Auto incremento no PostgreSQL
 	private Long id;
 
 	private String nome;

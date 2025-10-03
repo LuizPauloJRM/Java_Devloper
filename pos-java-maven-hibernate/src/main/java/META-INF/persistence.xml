@@ -12,7 +12,7 @@
 			<property name="hibernate.connection.driver_class"
 				value="org.postgresql.Driver" />
 			<property name="hibernate.connection.url"
-				value="jdbc:postgresql://localhost:5433/posjavahibernate" />
+				value="jdbc:postgresql://localhost:5435/posjavamavenhibernate" />
 
 			<!-- Linguagem : Dialeto (ajuda o Hibernate a gerar SQL para PostgreSQL) -->
 			<property name="hibernate.dialect"
@@ -23,7 +23,9 @@
 				value="postgres" />
 			<property name="hibernate.connection.password" value="admin" />
 
-			<!-- Propriedade para validar/atualizar a tabela. O valor 'update' permite que o Hibernate crie ou atualize o esquema do banco de dados com base nas suas entidades. -->
+			<!-- Propriedade para validar/atualizar a tabela. O valor 'update' permite 
+				que o Hibernate crie ou atualize o esquema do banco de dados com base nas 
+				suas entidades. -->
 			<property name="hibernate.hbm2ddl.auto" value="update" />
 
 			<!-- Mostrar o SQL gerado no console -->

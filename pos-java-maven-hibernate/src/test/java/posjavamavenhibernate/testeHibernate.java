@@ -2,80 +2,77 @@ package posjavamavenhibernate;
 
 import org.junit.Test;
 
-import Model.UsuarioPessoa; // Importe a classe de modelo
-import dao.DaoGeneric; // Seu DAO genérico para operações de persistência
+import Model.UsuarioPessoa;
+import dao.DaoGeneric;
 
 public class testeHibernate {
 
-	@Test
-	public void testeHibernateUtil() {
-		/*
-		 * 🔹 Primeira forma (comentada): Testando a conexão diretamente com EntityManager
-		 * 
-		 * // Obtém o EntityManager para testar a conexão
-		 * EntityManager em = HibernateUtil.getEntityManager();
-		 * 
-		 * // Verifica se a conexão foi bem-sucedida (não nula)
-		 * if (em != null) {
-		 *     System.out.println("✅ Conexão criada com sucesso!");
-		 * 
-		 *     // Exemplo de uma operação de persistência simples para confirmar o funcionamento
-		 *     em.getTransaction().begin();
-		 *     UsuarioPessoa usuario = new UsuarioPessoa();
-		 *     usuario.setNome("João");
-		 *     usuario.setSobrenome("Silva");
-		 *     em.persist(usuario);
-		 *     em.getTransaction().commit();
-		 *     System.out.println("✅ Entidade persistida com sucesso!");
-		 * 
-		 *     // Fecha o EntityManager
-		 *     em.close();
-		 * } else {
-		 *     System.out.println("❌ Falha ao criar a conexão.");
-		 * }
-		 */
+    /**
+     * Testa a inserção de um novo usuário no banco
+     */
+    @Test
+    public void testInserir() {
+        DaoGeneric<UsuarioPessoa> daoGeneric = new DaoGeneric<UsuarioPessoa>();
 
-		/*
-		 * 🔹 Segunda forma (usando DaoGeneric): Mais limpa, aproveitando o DAO para salvar
-		 * objetos sem precisar abrir e fechar transações manualmente.
-		 */
-		DaoGeneric<UsuarioPessoa> daoGeneric = new DaoGeneric<UsuarioPessoa>();
+        UsuarioPessoa pessoa = new UsuarioPessoa();
+        pessoa.setIdade(30);
+        pessoa.setLogin("luiz");
+        pessoa.setNome("Luiz Paulo");
+        pessoa.setSenha("123");
+        pessoa.setSobrenome("Medeiros");
+        pessoa.setEmail("luizpaulo@email.com");
 
-		// Criando um novo usuário para persistir no banco
-		UsuarioPessoa pessoa = new UsuarioPessoa();
-		pessoa.setIdade(45);
-		pessoa.setLogin("teste");
-		pessoa.setNome("Luiz Paulo");
-		pessoa.setSenha("123");
-		pessoa.setSobrenome("Medeiros");
-		pessoa.setEmail("luizpaulo@email.com");
+        daoGeneric.salvar(pessoa);
+        System.out.println("✅ Usuário salvo com sucesso: " + pessoa);
+    }
 
-		// Persistindo no banco com DAO genérico
-		daoGeneric.salvar(pessoa);
+    /**
+     * Testa buscar um usuário pelo ID
+     */
+    @Test
+    public void testBuscar() {
+        DaoGeneric<UsuarioPessoa> daoGeneric = new DaoGeneric<UsuarioPessoa>();
+        UsuarioPessoa pessoa = daoGeneric.pesquisar(1L, UsuarioPessoa.class);
 
-		System.out.println("✅ Usuário salvo com sucesso via DaoGeneric!");
-		
-		
-	}
-	@Test
-	public void testBuscar() {
-		DaoGeneric<UsuarioPessoa> daoGeneric= new DaoGeneric<UsuarioPessoa>();
-		UsuarioPessoa pessoa= new UsuarioPessoa();
-		pessoa.setId(2L);
-		
-		pessoa = daoGeneric.pesquisar(pessoa);
-		System.out.println(pessoa);
-		
-	}
-	
-	@Test
-	public void testBuscar2() {
-		DaoGeneric<UsuarioPessoa> daoGeneric= new DaoGeneric<UsuarioPessoa>();
-		
-		
-		UsuarioPessoa pessoa = daoGeneric.pesquisar(2L, UsuarioPessoa.class);
-		System.out.println(pessoa);
-		
-	}
-	
+        if (pessoa != null) {
+            System.out.println("🔎 Usuário encontrado: " + pessoa);
+        } else {
+            System.out.println("❌ Nenhum usuário encontrado com ID 1");
+        }
+    }
+
+    /**
+     * Testa atualização de dados (merge)
+     */
+    @Test
+    public void testUpdate() {
+        DaoGeneric<UsuarioPessoa> daoGeneric = new DaoGeneric<UsuarioPessoa>();
+        UsuarioPessoa pessoa = daoGeneric.pesquisar(1L, UsuarioPessoa.class);
+
+        if (pessoa != null) {
+            pessoa.setNome("Luiz Paulo Atualizado");
+            pessoa.setEmail("novoemail@email.com");
+
+            daoGeneric.updateMerge(pessoa);
+            System.out.println(" Usuário atualizado: " + pessoa);
+        } else {
+            System.out.println(" Usuário para atualização não encontrado.");
+        }
+    }
+
+    /**
+     * Testa remoção de usuário
+     */
+    @Test
+    public void testDelete() {
+        DaoGeneric<UsuarioPessoa> daoGeneric = new DaoGeneric<UsuarioPessoa>();
+        UsuarioPessoa pessoa = daoGeneric.pesquisar(1L, UsuarioPessoa.class);
+
+        if (pessoa != null) {
+            daoGeneric.deletarPorId(pessoa);
+            System.out.println(" Usuário deletado com sucesso!");
+        } else {
+            System.out.println(" Usuário para exclusão não encontrado.");
+        }
+    }
 }
