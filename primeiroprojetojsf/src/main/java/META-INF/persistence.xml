@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+<!-- 
+    Migrando para o namespace e a versão do Jakarta EE (3.0 ou superior).
+    Isso é compatível com as dependências que você atualizou no pom.xml.
+-->
+<persistence version="3.0"
+	xmlns="https://jakarta.ee/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
+	
+	<!-- Define a unidade de persistência com um nome único. -->
 	<persistence-unit name="primeiroprojetojsf">
+		
+		<!-- 
+		    Especifica o provedor de persistência. A classe 'org.hibernate.jpa.HibernatePersistenceProvider'
+		    é a versão correta e não obsoleta para o Hibernate 6.x.
+		-->
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		
+		<!-- Mapeia a classe de entidade para esta unidade de persistência. -->
+		<class>br.com.entidades.Pessoa</class>
+		
+		<properties>
+			<!-- Corrige o prefixo para 'jakarta' e o erro de digitação 'jdbc'. -->
+			<property name="jakarta.persistence.jdbc.url"
+				value="jdbc:postgresql://localhost:5435/meuprimeiroprojetojsf" />
+			
+			<!-- Corrige o prefixo para 'jakarta'. -->
+			<property name="jakarta.persistence.jdbc.user"
+				value="postgres" />
+			
+			<!-- Corrige o prefixo para 'jakarta'. -->
+			<property name="jakarta.persistence.jdbc.password"
+				value="admin" />
+			
+			<!-- Corrige o prefixo para 'jakarta'. -->
+			<property name="jakarta.persistence.jdbc.driver"
+				value="org.postgresql.Driver" />
+			
+			<!-- 
+			    Dialeto correto para PostgreSQL em versões recentes do Hibernate.
+			    Atenção à grafia 'PostgreSQLDialect'.
+			-->
+			
+			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL95Dialect"/>
+			
+			<!-- Exibe as instruções SQL no console. -->
+			<property name="hibernate.show_sql" value="true"/>
+			<property name="hibernate.hbm2ddl.auto" value="update"/>
+			
+			<!-- 
+			    Geração automática do esquema do banco de dados.
+			    'update' modifica o esquema existente.
+			-->
+			<property name="hibernate.hbm2ddl.auto" value="update"/>
+		</properties>
 	</persistence-unit>
 </persistence>
