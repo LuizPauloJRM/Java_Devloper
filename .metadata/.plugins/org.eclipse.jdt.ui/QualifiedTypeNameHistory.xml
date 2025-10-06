@@ -39,4 +39,10 @@
     <fullyQualifiedTypeName name="br.com.dao.DaoGeneric"/>
     <fullyQualifiedTypeName name="javax.faces.bean.ViewScoped"/>
     <fullyQualifiedTypeName name="jakarta.persistence.NamedEntityGraph"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Profile"/>
 </qualifiedTypeNameHistroy>

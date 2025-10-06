@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class InitController {
 
     /**
+     * http://localhost:8080/primeira/get
      * Stateless: o servidor não mantém o estado do cliente entre requisições.
      * Cada requisição é independente e contém todas as informações necessárias.
      * (A anotação @RequestMapping é o lugar para o mapeamento, não o @RestController).

@@ -2,6 +2,7 @@ package br.com.sistemaerplite.financeiro;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Profile;
 
 /**
  * A anotação @SpringBootApplication é uma anotação de conveniência que combina
@@ -15,6 +16,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * SpringApplication.run(), responsável por inicializar o contexto da aplicação.
  */
 @SpringBootApplication
+/*@Profile("")*/
 public class FinanceiroApplication {
 
 	public static void main(String[] args) {
