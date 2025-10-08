@@ -32,11 +32,11 @@ public class CamadaPersistencia {
 		empresa.setRazaoSocial("Luiz Paulo Medeiros");
 		/*empresa.setDataFundacao(new Date());*/
 		empresa.setRamoAtividade(listaDeRamoAtividades.get(0));
-		/*empresa.setTipo("MEI");*/
+		/*empresa.setTipo(TipoEmpresa."MEI");*/
 		
 		/*Salvando a empresa*/
 		empresas.guardar(empresa);
-		
+		/*Commit da transação*/
 		em.getTransaction().commit();
 		
 		/*Verificando se a inserção funciona*/
