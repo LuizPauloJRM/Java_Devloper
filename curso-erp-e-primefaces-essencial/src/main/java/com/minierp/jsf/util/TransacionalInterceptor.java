@@ -10,7 +10,10 @@ import javax.interceptor.InvocationContext;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
 import javax.transaction.Transactional;
-
+/*
+ *  automatiza a abertura, o gerenciamento e o fechamento de transações de banco de dados para métodos de classes anotadas.
+ *   O objetivo é garantir a integridade dos dados, aplicando o padrão ACID para operações de persistência. 
+ */
 @Interceptor
 @Transactional
 @Priority(Interceptor.Priority.APPLICATION)
