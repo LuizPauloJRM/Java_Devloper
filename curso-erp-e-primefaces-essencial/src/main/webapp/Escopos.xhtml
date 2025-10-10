@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+
+<meta charset="UTF-8"/>
+<title>Gestão de Empresas</title>
+<!-- http://localhost:8080/curso-erp-e-primefaces-essencial/GestaoEmpresas.xhtml -->
+
+<h:outputStylesheet library="minierp" name="estilo.css"/>
+
+</h:head>
+<h:body>
+		<h:outputText value="jsf funcionando"/> 
+	<header>
+		<h:graphicImage library="minierp" name="logo.png"/>
+	</header>
+	<div id="conteudo">
+		<h:form>
+			<h:panelGrid columns="2">
+				<!-- Ao usuario clicar neste label o foco , concentre-se no meu input text "razaoSocial la do meu empresa.java" -->
+				<h:outputLabel value="Número"/>
+				<!-- Invocar o numero do meu bean -->
+				<h:outputText value="#{gestaoEmpresasBean.numero}"/>
+				
+				<h:outputLabel />
+				<h:commandButton value="Salvar"/>				
+			</h:panelGrid>
+		</h:form>
+	</div>
+	<footer>
+		"JSF" e Prime faces essencial - mini erp empresas 
+	</footer>
+
+</h:body>
+</html>
