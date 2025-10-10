@@ -6,7 +6,7 @@
 
 <meta charset="UTF-8"/>
 <title>Gestão de Empresas</title>
-<!-- http://localhost:8080/curso-erp-e-primefaces-essencial/GestaoEmpresas.xhtml -->
+<!-- Endereço para testar a página no navegador: http://localhost:8080/curso-erp-e-primefaces-essencial/GestaoEmpresas.xhtml -->
 
 <h:outputStylesheet library="minierp" name="estilo.css"/>
 
@@ -19,33 +19,36 @@
 	<div id="conteudo">
 		<h:form>
 			<h:panelGrid columns="2">
-				<!-- Ao usuario clicar neste label o foco , concentre-se no meu input text "razaoSocial la do meu empresa.java" -->
+				<!-- Ao usuário clicar neste label, o foco será direcionado para o input text "razaoSocial". -->
 				<h:outputLabel value="Razão Social" for="razaoSocial"/>
-				<h:inputText id="razaoSocial"/>
+				<h:inputText id="razaoSocial" value="#{gestaoEmpresasBean.empresa.razaoSocial}"/>
 				
 				<h:outputLabel value="Nome Fantasia" for="nomeFantasia"/>
-				<h:inputText id="nomeFantasia"/>
+				
+				<!-- A correção está aqui: faltava o espaço antes do atributo 'value'. -->
+				<h:inputText id="nomeFantasia" value="#{gestaoEmpresasBean.empresa.nomeFantasia}"/>
 				
 				<h:outputLabel value="Tipo empresa" for="tipo"/>
-				<h:selectOneMenu id="tipo">
+				<h:selectOneMenu id="tipo" value="#{gestaoEmpresasBean.empresa.tipo}">
 					<f:selectItem itemLabel="Selecione"/>
-					<f:selectItems itemLabel="MEI" itemValue="MEI"/>
-					<f:selectItems itemLabel="LTDA" itemValue="LTDA"/>
+					<!-- Correção: faltava o '}' para fechar a expressão EL e a referência 'TipoEmpresa' estava incorreta. -->
+					<f:selectItems value="#{gestaoEmpresasBean.tiposEmpresa}"
+						var="tipoEmpresa" itemLabel="#{tipoEmpresa.descricao}" itemValue="#{tipoEmpresa}"/>
 				</h:selectOneMenu>
 				
 				<h:outputLabel />
-				<h:commandButton value="Salvar"/>
+				<h:commandButton value="Salvar" actionListener="#{gestaoEmpresasBean.salvar}"/>
 				<h:commandButton value="Enviar"/>				
 			</h:panelGrid>
 			<!-- Lista dados para o usuário -->
-			<!-- Dados de uma lista no managedBean -->
-			<h:dataTable value="#{[0, 0, 0, 0]}">
+			<!-- Dados de uma lista no managedBean. Corrigido para exibir dados reais e dinâmicos. -->
+			<h:dataTable value="#{gestaoEmpresasBean.empresa}" var="empresa">
 				<h:column>
 					<f:facet name="header">
 						<h:outputText value="Nome Fantasia"/>
 					</f:facet>
 					
-					<h:outputText value="mini erp software."/>			
+					<h:outputText value="#{empresa.nomeFantasia}"/>			
 				</h:column>
 				
 				<h:column>
@@ -53,7 +56,7 @@
 						<h:outputText value="Tipo Empresa"/>
 					</f:facet>
 					
-					<h:outputText value="LDTA"/>			
+					<h:outputText value="#{empresa.tipo.descricao}"/>			
 				</h:column>
 			</h:dataTable>
 		</h:form>

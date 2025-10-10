@@ -113,6 +113,11 @@ public class Empresa implements Serializable {
 	public String toString() {
 		return "Empresa [id=" + id + "]";
 	}
+
+	public String getTipo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	
 	
