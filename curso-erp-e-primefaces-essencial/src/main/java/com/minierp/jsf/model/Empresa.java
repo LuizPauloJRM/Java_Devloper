@@ -14,35 +14,55 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+
+/**
+ * Representa a entidade Empresa, mapeada para a tabela "empresa" no banco de dados.
+ * Implementa a interface Serializable para permitir que objetos da classe possam ser
+ * convertidos em um fluxo de bytes e vice-versa, o que é útil para operações de rede
+ * e persistência de dados.
+ */
 @Entity
-@Table(name = "empresa" )
+@Table(name = "empresa")
 public class Empresa implements Serializable {
+
 	private static final long serialVersionUID = 1L;
-	
+
+	// Atributos de persistência e de negócio
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	
-	@Column(name = "nome_fantasia" , nullable=false,length = 80)
+
+	@Column(name = "nome_fantasia", nullable = false, length = 80)
 	private String nomeFantasia;
-	
-	@Column(name = "razao_social" ,nullable=false,length = 120)
+
+	@Column(name = "razao_social", nullable = false, length = 120)
 	private String razaoSocial;
-	
-	@Column(nullable=false,length = 18)
+
+	@Column(nullable = false, length = 18)
 	private String cnpj;
-	
-	@Column(name="data_fundacao")
+
+	@Column(name = "data_fundacao")
 	private LocalDate dataFundacao;
-	
-	/*Muitas empresas para um ramo atividade*/
+
+	/*
+	 * Relacionamento Muitos para Um (ManyToOne) com RamoAtividade.
+	 * Muitas empresas podem estar associadas a um único ramo de atividade.
+	 * A anotação @JoinColumn especifica a coluna que será usada para a junção na tabela de empresas.
+	 */
 	@ManyToOne
 	@JoinColumn(name = "ramo_atividade_id", nullable = false)
 	private RamoAtividade ramoAtividade;
-	
+
+	/*
+	 * Mapeia o enum TipoEmpresa para uma coluna de tipo String no banco de dados.
+	 * A anotação @Enumerated(EnumType.STRING) garante que o nome do enum seja persistido.
+	 */
 	@Enumerated(EnumType.STRING)
-	@Column(nullable = false,length = 30)
+	@Column(nullable = false, length = 30)
 	private TipoEmpresa tipo;
+
+	// Métodos Getters e Setters
 
 	public Long getId() {
 		return id;
@@ -92,33 +112,54 @@ public class Empresa implements Serializable {
 		this.ramoAtividade = ramoAtividade;
 	}
 
+	public TipoEmpresa getTipo() {
+		return tipo;
+	}
+
+	/**
+	 * Setter para a propriedade 'tipo'.
+	 * Este é o método que estava faltando ou implementado de forma incorreta e que causou o erro.
+	 * @param tipo O tipo da empresa a ser definido.
+	 */
+	public void setTipo(TipoEmpresa tipo) {
+		this.tipo = tipo;
+	}
+
+	// Métodos de utilidade
+
+	/**
+	 * Gera um código hash para o objeto com base no seu ID.
+	 * Útil para operações em coleções, como HashMap e HashSet.
+	 * @return O código hash do objeto.
+	 */
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
 	}
 
+	/**
+	 * Compara se este objeto é igual a outro, com base no ID.
+	 * @param obj O objeto a ser comparado.
+	 * @return true se os objetos forem iguais, false caso contrário.
+	 */
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
+		if (this == obj) {
 			return true;
-		if (obj == null)
+		}
+		if (obj == null || getClass() != obj.getClass()) {
 			return false;
-		if (getClass() != obj.getClass())
-			return false;
+		}
 		Empresa other = (Empresa) obj;
 		return Objects.equals(id, other.id);
 	}
 
+	/**
+	 * Retorna uma representação em string do objeto, útil para fins de depuração.
+	 * @return Uma string contendo o ID da empresa.
+	 */
 	@Override
 	public String toString() {
 		return "Empresa [id=" + id + "]";
 	}
-
-	public String getTipo() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	
-	
-	
 }

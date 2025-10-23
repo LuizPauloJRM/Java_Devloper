@@ -31,7 +31,8 @@
 				<h:outputLabel value="Tipo empresa" for="tipo"/>
 				<h:selectOneMenu id="tipo" value="#{gestaoEmpresasBean.empresa.tipo}">
 					<f:selectItem itemLabel="Selecione"/>
-					<!-- Correção: faltava o '}' para fechar a expressão EL e a referência 'TipoEmpresa' estava incorreta. -->
+<!-- 				<f:selectItem itemLabel="MEI" itemValue="MEI"/> -->
+<!-- 				<f:selectItem itemLabel="LTDA" itemValue="LTDA"/> -->
 					<f:selectItems value="#{gestaoEmpresasBean.tiposEmpresa}"
 						var="tipoEmpresa" itemLabel="#{tipoEmpresa.descricao}" itemValue="#{tipoEmpresa}"/>
 				</h:selectOneMenu>
