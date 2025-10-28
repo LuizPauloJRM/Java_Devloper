@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:f="http://xmlns.jcp.org/jsf/core">
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
 <h:head>
-
-<meta charset="UTF-8"/>
-<title>Ajuda</title>
-<!-- Endereço para testar a página no navegador: http://localhost:8080/curso-erp-e-primefaces-essencial/GestaoEmpresas.xhtml -->
-
-<h:outputStylesheet library="minierp" name="estilo.css"/>
-
+    <meta charset="UTF-8"/>
+    <title>Ajuda - Gestão de Empresas</title>
+    <h:outputStylesheet library="minierp" name="estilo.css"/>
 </h:head>
-<h:body>
-		<h:outputText value="jsf funcionando"/> 
-	<header>
-		<h:graphicImage library="minierp" name="logo.png"/>
-	</header>
-	<h2>Ajuda</h2>
-	<div id="conteudo">
-		
-		<h:form>
-		 	<p>Esta é a página ajuda de Gestão Empresas</p>
-		 	<p>
-		 		<!-- Navegação-->
-		 		<h:commandLink value="Voltar" action="GestaoEmpresas" />
-		 	</p>
-		</h:form>
-	</div>
-	<footer>
-		"JSF" e Prime faces essencial - mini erp empresas 
-	</footer>
 
+<h:body>
+    <header>
+        <h:graphicImage library="minierp" name="logo.png"/>
+    </header>
+
+    <h2>Ajuda - Gestão de Empresas</h2>
+
+    <div id="conteudo">
+        <h:form>
+            <p>Esta é a página de ajuda para o módulo de Gestão de Empresas.</p>
+            <p>Aqui você encontra informações e suporte sobre como preencher os campos e salvar os dados corretamente.</p>
+
+            <!-- Link para voltar -->
+            <h:commandLink value="Voltar para o cadastro" action="GestaoEmpresas" />
+        </h:form>
+    </div>
+
+    <footer>
+        <p>JSF e PrimeFaces Essencial - Mini ERP Empresas</p>
+    </footer>
 </h:body>
 </html>
