@@ -1,93 +1,115 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:f="http://xmlns.jcp.org/jsf/core">
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">
 
 <h:head>
-    <meta charset="UTF-8"/>
-    <title>Gestão de Empresas</title>
-    <h:outputStylesheet library="minierp" name="estilo.css"/>
+	<meta charset="UTF-8" />
+	<title>Gestão de Empresas</title>
+	<h:outputStylesheet library="minierp" name="estilo.css" />
 </h:head>
 
 <h:body>
-    <!-- Texto de verificação -->
-    <h:outputText value="JSF funcionando corretamente!" />
+	<!-- Texto de verificação -->
+	<h:outputText value="JSF funcionando corretamente!" />
 
-    <header>
-        <!-- Exibe a logo -->
-        <h:graphicImage library="minierp" name="logo.png"/>
-    </header>
+	<header>
+		<!-- Exibe a logo -->
+		<h:graphicImage library="minierp" name="logo.png" />
+	</header>
+	<!-- Conteúdo principal da página -->
+	<div id="conteudo">
+		<!-- 
+          h:form é o formulário do JSF.
+          Todos os campos e botões que interagem com o bean precisam estar dentro de um form.
+        -->
+		<h:form>
+			<!-- 
+              h:panelGrid cria uma estrutura de tabela invisível.
+              Aqui, columns="2" significa duas colunas: uma para o label e outra para o campo.
+            -->
+			<h:panelGrid columns="2">
+				<!-- Campo: Razão Social -->
+				<h:outputLabel value="Razão social: " for="razaoSocial" />
+				<h:inputText id="razaoSocial"
+					value="#{gestaoEmpresasBean.empresa.razaoSocial}" />
+				<!-- 
+                  h:inputText cria um campo de texto.
+                  O atributo "value" faz ligação com o bean gestaoEmpresasBean.
+                  O valor digitado será atribuído em empresa.razaoSocial.
+                -->
+				<!-- Campo: Nome Fantasia -->
+				<h:outputLabel value="Nome fantasia: " for="nomeFantasia" />
+				<h:inputText id="nomeFantasia"
+					value="#{gestaoEmpresasBean.empresa.nomeFantasia}" />
+				<!-- Campo: Tipo de Empresa -->
+				<!-- 
+                  h:selectOneMenu cria um menu dropdown.
+                  O valor selecionado será armazenado em empresa.tipo.
+                -->
+				<h:outputLabel value="Tipo empresa" for="tipo" />
+				<h:selectOneMenu id="tipo"
+					value="#{gestaoEmpresasBean.empresa.tipo}">
+					 <!-- Primeira opção fixa -->
+					<f:selectItem itemLabel="Selecione..." />
+					 <!-- 
+                      f:selectItems gera as opções dinamicamente a partir de uma lista.
+                      A lista vem do bean: gestaoEmpresasBean.tiposEmpresa.
+                      Cada item da lista é representado por "tipoEmpresa".
+                      itemLabel → texto exibido na tela
+                      itemValue → valor real (objeto ou código) atribuído ao campo
+                    -->
+					<f:selectItems value="#{gestaoEmpresasBean.tiposEmpresa}"
+						var="tipoEmpresa" itemLabel="#{tipoEmpresa.descricao}"
+						itemValue="#{tipoEmpresa}" />
+				</h:selectOneMenu>
+				  <!-- 
+                  Botão de ação para salvar os dados.
+                  actionListener chama o método salvar() no bean.
+                -->
 
-    <div id="conteudo">
-        <!-- Formulário principal -->
-        <h:form>
-            <h:panelGrid columns="2" cellpadding="5">
+				<h:outputLabel />
+				<h:commandButton value="Salvar"
+					actionListener="#{gestaoEmpresasBean.salvar}" />
+					   <!-- 
+                  Link para ajuda.
+                  Quando clicado, chama o método ajuda() do bean, possivelmente abrindo outra página.
+                -->
 
-                <!-- Campo: Razão Social -->
-                <h:outputLabel value="Razão Social" for="razaoSocial"/>
-                <h:panelGroup>
-                    <h:inputText id="razaoSocial" value="#{gestaoEmpresasBean.empresa.razaoSocial}" required="true"/>
-                    <h:message for="razaoSocial"/>
-                </h:panelGroup>
+				<h:outputLabel />
+				<h:commandLink value="Precisa de Ajuda?" action="#{gestaoEmpresasBean.ajuda}" />
+			</h:panelGrid>
 
-                <!-- Campo: Nome Fantasia -->
-                <h:outputLabel value="Nome Fantasia" for="nomeFantasia"/>
-                <h:inputText id="nomeFantasia" value="#{gestaoEmpresasBean.empresa.nomeFantasia}"/>
+			<h:dataTable value="#{[0]}">
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="Razão social" />
+					</f:facet>
 
-                <!-- Campo: Tipo de Empresa -->
-                <h:outputLabel value="Tipo de Empresa" for="tipo"/>
-                <h:panelGroup>
-                    <h:selectOneMenu id="tipo" value="#{gestaoEmpresasBean.empresa.tipo}">
-                        <f:selectItem itemLabel="Selecione"/>
-                        <f:selectItems value="#{gestaoEmpresasBean.tiposEmpresa}"
-                                       var="tipoEmpresa"
-                                       itemLabel="#{tipoEmpresa.descricao}"
-                                       itemValue="#{tipoEmpresa}"/>
-                    </h:selectOneMenu>
-                    <h:message for="tipo"/>
-                </h:panelGroup>
+					<h:outputText value="MiniERP Softwares, Treinamentos LDTA" />
+				</h:column>
 
-                <!-- Campo: CNPJ -->
-                <h:outputLabel value="CNPJ" for="cnpj"/>
-                <h:panelGroup>
-                    <h:inputText id="cnpj" value="#{gestaoEmpresasBean.empresa.cnpj}" label="CNPJ">
-                        <f:validateLength minimum="18" maximum="18"/>
-                    </h:inputText>
-                    <h:message for="cnpj"/>
-                </h:panelGroup>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="Nome fantasia" />
+					</f:facet>
 
-                <!-- Campo: Data de Fundação -->
-                <h:outputLabel value="Data Fundação" for="dataFundacao"/>
-                <h:panelGroup>
-                    <h:inputText id="dataFundacao" value="#{gestaoEmpresasBean.empresa.dataFundacao}" label="Data Fundação">
-                        <f:convertDateTime pattern="dd/MM/yyyy" type="localDate"/>
-                    </h:inputText>
-                    <h:message for="dataFundacao"/>
-                </h:panelGroup>
+					<h:outputText value="miniERP" />
+				</h:column>
 
-                <!-- Campo: Faturamento -->
-                <h:outputLabel value="Faturamento" for="faturamento"/>
-                <h:panelGroup>
-                    <h:inputText id="faturamento" value="#{gestaoEmpresasBean.empresa.faturamento}" label="Faturamento">
-                        <f:convertNumber pattern="#,##0.00"/>
-                        <f:validateDoubleRange minimum="0"/>
-                    </h:inputText>
-                    <h:message for="faturamento"/>
-                </h:panelGroup>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="Tipo Empresa" />
+					</f:facet>
 
-                <!-- Botão Salvar -->
-                <h:outputLabel/>
-                <h:commandButton value="Salvar" actionListener="#{gestaoEmpresasBean.salvar}"/>
+					<h:outputText value="LDTA" />
+				</h:column>
+			</h:dataTable>
+		</h:form>
+	</div>
 
-                <!-- Link para página de ajuda -->
-                <h:outputLabel/>
-                <h:commandLink value="Precisa de ajuda?" action="#{gestaoEmpresasBean.ajuda}"/>
-            </h:panelGrid>
-        </h:form>
-    </div>
-
-    <footer>
-        <p>JSF e PrimeFaces Essencial - Mini ERP Empresas</p>
-    </footer>
+	<footer>
+		<p>JSF e PrimeFaces Essencial - Mini ERP Empresas</p>
+	</footer>
 </h:body>
 </html>

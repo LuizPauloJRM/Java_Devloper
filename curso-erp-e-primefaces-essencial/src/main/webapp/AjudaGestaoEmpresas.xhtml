@@ -21,7 +21,10 @@
             <p>Aqui você encontra informações e suporte sobre como preencher os campos e salvar os dados corretamente.</p>
 
             <!-- Link para voltar -->
-            <h:commandLink value="Voltar para o cadastro" action="GestaoEmpresas" />
+            <!-- Navegação de páginas , utilizando componente JSF -->
+            <p>
+            	<h:commandLink value="Voltar para o cadastro" action="GestaoEmpresas?faces-redirect=true" />
+            </p>                        
         </h:form>
     </div>
 

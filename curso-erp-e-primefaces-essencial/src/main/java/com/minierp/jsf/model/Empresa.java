@@ -1,77 +1,150 @@
 package com.minierp.jsf.model;
 
 import java.io.Serializable;
-import java.time.LocalDate;
+import java.math.BigDecimal;
+import java.util.Date;
 
-/**
- * Classe que representa uma empresa no sistema Mini ERP.
- * Esta classe é um simples POJO (Plain Old Java Object),
- * usada para armazenar os dados do formulário.
- */
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+@Entity
+@Table(name = "empresa")
 public class Empresa implements Serializable {
-    private static final long serialVersionUID = 1L;
 
-    private String razaoSocial;
-    private String nomeFantasia;
-    private TipoEmpresa tipo;      // Enum (LTDA, SA, MEI, etc.)
-    private String cnpj;           // CNPJ formatado (##.###.###/####-##)
-    private LocalDate dataFundacao;
-    private Double faturamento;
+	private static final long serialVersionUID = 1L;
 
-    /* ========================
-       Construtor padrão
-    =========================*/
-    public Empresa() {
-    }
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	@Column(name = "nome_fantasia", nullable = false, length = 80)
+	private String nomeFantasia;
+	
+	@Column(name = "razao_social", nullable = false, length = 120)
+	private String razaoSocial;
+	
+	@Column(nullable = false, length = 18)
+	private String cnpj;
+	
+	@Temporal(TemporalType.DATE)
+	@Column(name = "data_fundacao")
+	private Date dataFundacao;
+	
+	@ManyToOne
+	@JoinColumn(name = "ramo_atividade_id", nullable = false)
+	private RamoAtividade ramoAtividade;
+	
+	@Enumerated(EnumType.STRING)
+	@Column(nullable = false, length = 30)
+	private TipoEmpresa tipo;
+	
+	
+	@Column(precision=10, scale = 2)
+	private BigDecimal faturamento;
+	
+	
 
-    /* ========================
-       Getters e Setters
-    =========================*/
-    public String getRazaoSocial() {
-        return razaoSocial;
-    }
+	public BigDecimal getFaturamento() {
+		return faturamento;
+	}
 
-    public void setRazaoSocial(String razaoSocial) {
-        this.razaoSocial = razaoSocial;
-    }
+	public void setFaturamento(BigDecimal faturamento) {
+		this.faturamento = faturamento;
+	}
 
-    public String getNomeFantasia() {
-        return nomeFantasia;
-    }
+	public Long getId() {
+		return id;
+	}
 
-    public void setNomeFantasia(String nomeFantasia) {
-        this.nomeFantasia = nomeFantasia;
-    }
+	public void setId(Long id) {
+		this.id = id;
+	}
 
-    public TipoEmpresa getTipo() {
-        return tipo;
-    }
+	public String getNomeFantasia() {
+		return nomeFantasia;
+	}
 
-    public void setTipo(TipoEmpresa tipo) {
-        this.tipo = tipo;
-    }
+	public void setNomeFantasia(String nomeFantasia) {
+		this.nomeFantasia = nomeFantasia;
+	}
 
-    public String getCnpj() {
-        return cnpj;
-    }
+	public String getRazaoSocial() {
+		return razaoSocial;
+	}
 
-    public void setCnpj(String cnpj) {
-        this.cnpj = cnpj;
-    }
+	public void setRazaoSocial(String razaoSocial) {
+		this.razaoSocial = razaoSocial;
+	}
 
-    public LocalDate getDataFundacao() {
-        return dataFundacao;
-    }
+	public String getCnpj() {
+		return cnpj;
+	}
 
-    public void setDataFundacao(LocalDate dataFundacao) {
-        this.dataFundacao = dataFundacao;
-    }
+	public void setCnpj(String cnpj) {
+		this.cnpj = cnpj;
+	}
 
-    public Double getFaturamento() {
-        return faturamento;
-    }
+	public Date getDataFundacao() {
+		return dataFundacao;
+	}
 
-    public void setFaturamento(Double faturamento) {
-        this.faturamento = faturamento;
-    }
+	public void setDataFundacao(Date dataFundacao) {
+		this.dataFundacao = dataFundacao;
+	}
+
+	public RamoAtividade getRamoAtividade() {
+		return ramoAtividade;
+	}
+
+	public void setRamoAtividade(RamoAtividade ramoAtividade) {
+		this.ramoAtividade = ramoAtividade;
+	}
+
+	public TipoEmpresa getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(TipoEmpresa tipo) {
+		this.tipo = tipo;
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((id == null) ? 0 : id.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Empresa other = (Empresa) obj;
+		if (id == null) {
+			if (other.id != null)
+				return false;
+		} else if (!id.equals(other.id))
+			return false;
+		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "Empresa [id=" + id + "]";
+	}	
 }

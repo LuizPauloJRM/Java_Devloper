@@ -58,6 +58,6 @@
     <fullyQualifiedTypeName name="javax.faces.bean.ViewScoped"/>
     <fullyQualifiedTypeName name="javax.faces.view.ViewScoped"/>
     <fullyQualifiedTypeName name="com.minierp.jsf.model.Empresa"/>
-    <fullyQualifiedTypeName name="com.minierp.jsf.model.TipoEmpresa"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="com.minierp.jsf.model.TipoEmpresa"/>
 </qualifiedTypeNameHistroy>

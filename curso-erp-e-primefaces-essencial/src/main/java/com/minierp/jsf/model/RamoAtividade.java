@@ -1,7 +1,6 @@
 package com.minierp.jsf.model;
 
 import java.io.Serializable;
-import java.util.Objects;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -11,16 +10,16 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="ramo_atividade")
+@Table(name = "ramo_atividade")
 public class RamoAtividade implements Serializable {
-	private static final long serialVersionUID = 1l;
-	/*Primary key*/
+
+	private static final long serialVersionUID = 1L;
+	
 	@Id
-	/*Para mysql atribuir um valor para o "id" */
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@Column(nullable = false,length = 80)
+	@Column(nullable = false, length = 80)
 	private String descricao;
 
 	public Long getId() {
@@ -41,12 +40,10 @@ public class RamoAtividade implements Serializable {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(id);
-	}
-
-	@Override
-	public String toString() {
-		return "RamoAtividade [id=" + id + "]";
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((id == null) ? 0 : id.hashCode());
+		return result;
 	}
 
 	@Override
@@ -58,7 +55,16 @@ public class RamoAtividade implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		RamoAtividade other = (RamoAtividade) obj;
-		return Objects.equals(id, other.id);
+		if (id == null) {
+			if (other.id != null)
+				return false;
+		} else if (!id.equals(other.id))
+			return false;
+		return true;
 	}
-	
+
+	@Override
+	public String toString() {
+		return "RamoAtividade [id=" + id + "]";
+	}
 }

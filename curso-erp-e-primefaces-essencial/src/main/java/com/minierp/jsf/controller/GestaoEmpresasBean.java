@@ -28,13 +28,13 @@ public class GestaoEmpresasBean implements Serializable {
                 + " | Nome fantasia: " + empresa.getNomeFantasia()
                 + " | Tipo: " + empresa.getTipo());
     }
-
+ 
     /**
      * Método usado para navegar para a página de ajuda.
      * Retorna o nome do arquivo XHTML sem a extensão (.xhtml).
      */
     public String ajuda() {
-        return "AjudaGestaoEmpresas";
+        return "AjudaGestaoEmpresas?faces-redirect=true";
     }
 
     /* Getter e Setter */
