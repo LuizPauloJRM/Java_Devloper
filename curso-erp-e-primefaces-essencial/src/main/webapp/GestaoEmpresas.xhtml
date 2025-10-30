@@ -11,7 +11,7 @@
 
 <h:body>
 	<!-- Texto de verificação -->
-	<h:outputText value="JSF funcionando corretamente!" />
+<!-- 	<h:outputText value="JSF funcionando corretamente!" /> -->
 
 	<header>
 		<!-- Exibe a logo -->
@@ -30,9 +30,13 @@
             -->
 			<h:panelGrid columns="2">
 				<!-- Campo: Razão Social -->
-				<h:outputLabel value="Razão social: " for="razaoSocial" />
-				<h:inputText id="razaoSocial"
-					value="#{gestaoEmpresasBean.empresa.razaoSocial}" />
+				<h:panelGroup>
+					<h:outputLabel value="Razão social: " for="razaoSocial" />
+					<h:inputText id="razaoSocial"
+					value="#{gestaoEmpresasBean.empresa.razaoSocial}" requerid="true" />
+					<h:message for="razaoSocial"/>
+				</h:panelGroup>
+			
 				<!-- 
                   h:inputText cria um campo de texto.
                   O atributo "value" faz ligação com o bean gestaoEmpresasBean.
@@ -48,21 +52,25 @@
                   O valor selecionado será armazenado em empresa.tipo.
                 -->
 				<h:outputLabel value="Tipo empresa" for="tipo" />
-				<h:selectOneMenu id="tipo"
-					value="#{gestaoEmpresasBean.empresa.tipo}">
-					<!-- Primeira opção fixa -->
-					<f:selectItem itemLabel="Selecione..." />
-					<!-- 
-                      f:selectItems gera as opções dinamicamente a partir de uma lista.
-                      A lista vem do bean: gestaoEmpresasBean.tiposEmpresa.
-                      Cada item da lista é representado por "tipoEmpresa".
-                      itemLabel → texto exibido na tela
-                      itemValue → valor real (objeto ou código) atribuído ao campo
-                    -->
+				<h:selectOneMenu id="tipo" value="#{gestaoEmpresasBean.empresa.tipo}" required="true">
+					<f:selectItem itemLabel="Selecione"/>
 					<f:selectItems value="#{gestaoEmpresasBean.tiposEmpresa}"
-						var="tipoEmpresa" itemLabel="#{tipoEmpresa.descricao}"
-						itemValue="#{tipoEmpresa}" />
+						var="tipoEmpresa" itemLabel="#{tipoEmpresa.descricao}" itemValue="#{tipoEmpresa}"/>
 				</h:selectOneMenu>
+				
+				<h:message for="tipo"/>
+				
+				<h:outputLabel value="CNPJ" for="cnpj" />
+				<h:panelGroup>
+					<h:inputText id="cnpj" value="#{gestaoEmpresasBean.empresa.cnpj}"
+							label="CNPJ">
+						<f:validateLength minimum="18" maximum="18" />	
+					</h:inputText>
+					
+					<h:message for="cnpj"/>
+				</h:panelGroup>
+				
+				
 				<h:outputLabel value="Data fundação: " for="dataFundacao" />
 				<h:panelGroup>
 					<h:inputText id="dataFundacao"
