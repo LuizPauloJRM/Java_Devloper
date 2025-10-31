@@ -29,7 +29,7 @@ public class GestaoEmpresasBean implements Serializable {
     
     //Popular a lista com todas a empresas da base de dados
     public void todasEmpresas() {
-    	listaEmpresas = empresas.todas();
+//    	listaEmpresas = empresas.todas();
     	
     }
     
