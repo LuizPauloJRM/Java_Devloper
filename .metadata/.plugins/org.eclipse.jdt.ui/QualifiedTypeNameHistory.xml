@@ -7,7 +7,6 @@
     <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
     <fullyQualifiedTypeName name="javax.persistence.EnumType"/>
-    <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="org.hibernate.service.spi.InjectService"/>
     <fullyQualifiedTypeName name="javax.persistence.criteria.CriteriaBuilder"/>
@@ -19,7 +18,6 @@
     <fullyQualifiedTypeName name="com.minierp.jsf.repository.RamoAtividades"/>
     <fullyQualifiedTypeName name="java.awt.List"/>
     <fullyQualifiedTypeName name="com.minierp.jsf.model.RamoAtividade"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.minierp.jsf.util.EntityManagerProducer"/>
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
     <fullyQualifiedTypeName name="javax.faces.bean.ApplicationScoped"/>
@@ -38,14 +36,11 @@
     <fullyQualifiedTypeName name="javax.interceptor.Interceptor"/>
     <fullyQualifiedTypeName name="javax.interceptor.Interceptor.Priority"/>
     <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
-    <fullyQualifiedTypeName name="com.minierp.jsf.repository.Empresas"/>
     <fullyQualifiedTypeName name="com.minierp.id.Pedidos"/>
-    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
     <fullyQualifiedTypeName name="com.minierp.id.RelatorioService"/>
     <fullyQualifiedTypeName name="javax.jws.WebService"/>
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
-    <fullyQualifiedTypeName name="javax.inject.Inject"/>
     <fullyQualifiedTypeName name="java.io.InputStream"/>
     <fullyQualifiedTypeName name="jakarta.faces.event.NamedEvent"/>
     <fullyQualifiedTypeName name="java.nio.file.Path"/>
@@ -60,4 +55,9 @@
     <fullyQualifiedTypeName name="com.minierp.jsf.model.Empresa"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="com.minierp.jsf.model.TipoEmpresa"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.minierp.jsf.repository.Empresas"/>
+    <fullyQualifiedTypeName name="javax.inject.Inject"/>
 </qualifiedTypeNameHistroy>

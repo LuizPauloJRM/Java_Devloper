@@ -1,11 +1,14 @@
 package com.minierp.jsf.controller;
 
 import java.io.Serializable;
+import java.util.List;
+
+import javax.faces.view.ViewScoped;
+import javax.inject.Inject;
 import javax.inject.Named;
-import javax.faces.view.ViewScoped; // Escopo de visão (mantém o estado enquanto o usuário estiver na mesma view)
 
 import com.minierp.jsf.model.Empresa;
-import com.minierp.jsf.model.TipoEmpresa;
+import com.minierp.jsf.repository.Empresas;
 
 /**
  * Classe controladora responsável pela gestão das empresas.
@@ -14,40 +17,25 @@ import com.minierp.jsf.model.TipoEmpresa;
 @Named
 @ViewScoped
 public class GestaoEmpresasBean implements Serializable {
+	
     private static final long serialVersionUID = 1L;
-
-    /* Representa a empresa que está sendo criada/editada na tela */
-    private Empresa empresa = new Empresa();
-
-    /**
-     * Método responsável por salvar a empresa.
-     * (Aqui está apenas simulando o salvamento, exibindo no console.)
-     */
-    public void salvar() {
-        System.out.println("Razão social: " + empresa.getRazaoSocial()
-                + " | Nome fantasia: " + empresa.getNomeFantasia()
-                + " | Tipo: " + empresa.getTipo());
+    
+    //Dados vindo do repositorio
+    @Inject
+    private Empresas empresas;
+    
+    
+    private List<Empresa>listaEmpresas;
+    
+    //Popular a lista com todas a empresas da base de dados
+    public void todasEmpresas() {
+    	listaEmpresas = empresas.todas();
+    	
     }
- 
-    /**
-     * Método usado para navegar para a página de ajuda.
-     * Retorna o nome do arquivo XHTML sem a extensão (.xhtml).
-     */
-    public String ajuda() {
-        return "AjudaGestaoEmpresas?faces-redirect=true";
-    }
-
-    /* Getter e Setter */
-    public Empresa getEmpresa() {
-        return empresa;
-    }
-
-    public void setEmpresa(Empresa empresa) {
-        this.empresa = empresa;
-    }
-
-    /* Retorna os tipos de empresa definidos no enum TipoEmpresa */
-    public TipoEmpresa[] getTiposEmpresa() {
-        return TipoEmpresa.values();
-    }
+    
+    public List<Empresa> getListaEmpresas() {
+		return listaEmpresas;
+	}
+    
+    
 }

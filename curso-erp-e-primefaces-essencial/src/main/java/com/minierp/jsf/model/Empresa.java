@@ -1,5 +1,6 @@
 package com.minierp.jsf.model;
 
+
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
@@ -48,19 +49,16 @@ public class Empresa implements Serializable {
 	@Column(nullable = false, length = 30)
 	private TipoEmpresa tipo;
 	
-	
-	@Column(precision=10, scale = 2)
+	@Column(precision = 10, scale = 2)
 	private BigDecimal faturamento;
 	
-	
-
 	public BigDecimal getFaturamento() {
-		return faturamento;
-	}
-
+        return faturamento;
+    }
+	
 	public void setFaturamento(BigDecimal faturamento) {
-		this.faturamento = faturamento;
-	}
+        this.faturamento = faturamento;
+    }
 
 	public Long getId() {
 		return id;
@@ -147,4 +145,6 @@ public class Empresa implements Serializable {
 	public String toString() {
 		return "Empresa [id=" + id + "]";
 	}	
+
+	
 }
