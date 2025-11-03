@@ -1,6 +1,6 @@
 package com.minierp.jsf.controller;
 
-import java.io.ObjectInputStream.GetField;
+
 import java.io.Serializable;
 import java.util.List;
 
@@ -9,6 +9,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 import com.minierp.jsf.model.Empresa;
+import com.minierp.jsf.model.TipoEmpresa;
 import com.minierp.jsf.repository.Empresas;
 import com.minierp.jsf.util.FacesMessages;
 
@@ -58,5 +59,9 @@ public class GestaoEmpresasBean implements Serializable {
     public String getTermoPesquisa() {
 		return termoPesquisa;
 	}
+    
+    public TipoEmpresa [] getTiposEmpresa() {
+    	return TipoEmpresa.values();
+    }
     
 }

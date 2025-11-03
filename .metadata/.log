@@ -6,10 +6,10 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-This is a continuation of log file D:\Luiz Paulo\Desenvolvedor_FullStack\Projetos\Java_Fullstack\.metadata\.bak_3.log
-Created Time: 2025-11-03 15:58:35.247
+This is a continuation of log file D:\Luiz Paulo\Desenvolvedor_FullStack\Projetos\Java_Fullstack\.metadata\.bak_5.log
+Created Time: 2025-11-03 16:33:54.075
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.248
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.076
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -69,7 +69,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.279
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.286
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -129,7 +129,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.293
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.302
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -189,7 +189,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.310
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.316
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -249,7 +249,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.332
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.333
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -309,7 +309,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.347
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.346
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -369,7 +369,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.359
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.359
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -429,7 +429,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.379
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.376
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -489,7 +489,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.394
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.409
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -549,7 +549,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.410
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.434
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -609,7 +609,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.431
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.464
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -669,7 +669,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.445
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.480
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -729,7 +729,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.457
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.495
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -789,7 +789,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.471
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.513
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -849,7 +849,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.487
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.529
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -909,7 +909,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.501
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.550
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -969,7 +969,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.517
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.570
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -1029,7 +1029,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.530
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.586
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -1089,7 +1089,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 15:58:35.546
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-03 16:33:54.605
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
