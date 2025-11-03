@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:f="http://xmlns.jcp.org/jsf/core"
-      xmlns:p="http://primefaces.org/ui">
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
 
 
 <h:head>
@@ -17,7 +17,7 @@
 
 <h:body>
 	<!-- Local -->
-<!-- 	http://localhost:8080/curso-jsf-e-primefaces-essencial/GestaoEmpresas.xhtml" /> -->
+	<!-- 	http://localhost:8080/curso-jsf-e-primefaces-essencial/GestaoEmpresas.xhtml" /> -->
 
 	<header>
 		<!-- Exibe a logo -->
@@ -26,30 +26,33 @@
 	<h2>Cadastro de empresas</h2>
 	<!-- Conteúdo principal da página -->
 	<div id="conteudo">
-	<!-- Listagem de dados dataTable -->
+		<!-- Listagem de dados dataTable -->
 		<!-- Value vou vincular o meu managedBean com uma propriedade que me tras o propriedades empresas -->
 		<!-- Criando uma variavel para cada item na lista ele coloca na variavel empresa -->
-		<p:dataTable value="#{gestaoEmpresasBean.listaEmpresas}"
-			var="empresa" emptyMessage="Nenhum dado exibido"
-			paginator="true" rows="10" paginatorPosition="botton">
-			
-			<p:column headerText="Razão social">
-				<h:outputText value="#{empresa.razaoSocial}"/>
-			</p:column>
-			
-			<p:column headerText="Nome Fantasia">
-				<h:outputText value="#{empresa.nomeFantasia}"/>
-			</p:column>
-			
-			<p:column headerText="Tipo empresa">
-				<h:outputText value="#{empresa.tipo}"/>
-			</p:column>
-			
-			<p:column headerText="Ramo Atividade">
-				<h:outputText value="#{empresa.ramoAtividade.descricao}"/>
-			</p:column>
-		</p:dataTable>
-		
+		<h:form>
+			<p:dataTable value="#{gestaoEmpresasBean.listaEmpresas}"
+				var="empresa" emptyMessage="Nenhum dado exibido" paginator="true"
+				rows="10" paginatorPosition="botton">
+
+				<p:column headerText="Razão social" sortBy="#{empresa.razaoSocial}">
+					<h:outputText value="#{empresa.razaoSocial}" />
+				</p:column>
+
+				<p:column headerText="Nome Fantasia">
+					<h:outputText value="#{empresa.nomeFantasia}" />
+				</p:column>
+
+				<p:column headerText="Tipo empresa">
+					<h:outputText value="#{empresa.tipo}" />
+				</p:column>
+
+				<p:column headerText="Ramo Atividade">
+					<h:outputText value="#{empresa.ramoAtividade.descricao}" />
+				</p:column>
+			</p:dataTable>
+		</h:form>
+
+
 	</div>
 
 	<footer>
