@@ -73,7 +73,7 @@
 					<h:outputText value="#{empresa.tipo}" />
 				</p:column>
 
-				<p:column headerText="Ramo Atividade">
+				<p:column headerText="Ramo atividade">
 					<h:outputText value="#{empresa.ramoAtividade.descricao}" />
 				</p:column>
 			</p:dataTable>
@@ -103,7 +103,10 @@
 				<p:calendar id="dataFundacao" pattern="dd/MM/yyyy" size="30"/>
 				
 				<p:outputLabel value="Ramo atividade" for="ramoAtividade"/>
-				<p:autoComplete id="ramoAtividade" size="80"/>
+				<p:autoComplete id="ramoAtividade" size="80" converter="#{gestaoEmpresasBean.ramoAtividadeConverter}"
+					completeMethod="#{gestaoEmpresasBean.completarRamoAtividade}" 
+					var="ramoAtividade"
+					itemLabel="#{ramoAtividade.descricao}" itemValue="#{ramoAtividade}"/>
 				
 				<h:outputLabel/>
 				<p:commandButton value="salvar"/>
