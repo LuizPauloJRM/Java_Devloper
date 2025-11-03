@@ -16,8 +16,8 @@
 </h:head>
 
 <h:body>
-	<!-- Texto de verificação -->
-<!-- 	<h:outputText value="JSF funcionando corretamente!" /> -->
+	<!-- Local -->
+<!-- 	http://localhost:8080/curso-jsf-e-primefaces-essencial/GestaoEmpresas.xhtml" /> -->
 
 	<header>
 		<!-- Exibe a logo -->
@@ -30,7 +30,7 @@
 		<!-- Value vou vincular o meu managedBean com uma propriedade que me tras o propriedades empresas -->
 		<!-- Criando uma variavel para cada item na lista ele coloca na variavel empresa -->
 		<p:dataTable value="#{gestaoEmpresasBean.listaEmpresas}"
-			var="empresa" emptyMessage="Nenhum dado informado">
+			var="empresa" emptyMessage="Nenhum dado exibido">
 			
 			<p:column headerText="Razão social">
 				<h:outputText value="#{empresa.razaoSocial}"/>
