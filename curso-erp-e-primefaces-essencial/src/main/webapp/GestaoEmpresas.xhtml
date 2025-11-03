@@ -5,24 +5,51 @@
 	xmlns:p="http://primefaces.org/ui"
 	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
 	template="WEB-INF/template/Layout.xhtml">
-	
-<ui:define name="título">
+
+	<ui:define name="título">
 	Cadastro de Empresas 
 </ui:define>
 
-<!-- O conteúdo do ui define será renderizado  no insert de layout-->
-<ui:define name="conteudo">
-	<f:metadata>
-		<!-- Chama um método dentro do ManagedBean -->
-		<f:viewAction action="#{gestaoEmpresasBean.todasEmpresas}"></f:viewAction>
-	</f:metadata>
-	<!-- Local -->
-	<!-- 	http://localhost:8080/curso-jsf-e-primefaces-essencial/GestaoEmpresas.xhtml" /> -->
+	<!-- O conteúdo do ui define será renderizado  no insert de layout-->
+	<ui:define name="conteudo">
+		<f:metadata>
+			<!-- Chama um método dentro do ManagedBean -->
+			<f:viewAction action="#{gestaoEmpresasBean.todasEmpresas}"></f:viewAction>
+		</f:metadata>
+		<!-- Local -->
+		<!-- 	http://localhost:8080/curso-jsf-e-primefaces-essencial/GestaoEmpresas.xhtml" /> -->
 
 		<!-- Listagem de dados dataTable -->
 		<!-- Value vou vincular o meu managedBean com uma propriedade que me tras o propriedades empresas -->
 		<!-- Criando uma variavel para cada item na lista ele coloca na variavel empresa -->
 		<h:form>
+			<p:toolbar>
+				<f:facet name="left">
+					<p:inputText placeholder="Texto aqui..."  size="30"/>
+					<p:commandButton value="Pesquisar" icon="fa fa fa-search" />
+					<span class="ui-separator"> <span
+						class="ui-icon ui-icon-grip-dotted-vertical"></span>
+					</span>
+
+					<p:commandButton value="Nova" icon="fa fa-plus" />
+
+					<span class="ui-separator"> <span
+						class="ui-icon ui-icon-grip-dotted-vertical"></span>
+					</span>
+
+					<p:commandButton title="Editar" icon="fa fa-edit" />
+					<p:commandButton title="Excluir" icon="fa fa-trash" />
+
+					<span class="ui-separator"> <span
+						class="ui-icon ui-icon-grip-dotted-vertical"></span>
+					</span>
+					<p:commandButton title="Exportar para o excel"
+						icon="fa fa-file-excel-o" />
+				</f:facet>
+			</p:toolbar>
+			
+			<p:spacer height="20px"/>
+			
 			<p:dataTable value="#{gestaoEmpresasBean.listaEmpresas}"
 				var="empresa" emptyMessage="Nenhum dado exibido" paginator="true"
 				rows="10" paginatorPosition="botton">
@@ -45,5 +72,5 @@
 			</p:dataTable>
 		</h:form>
 
-</ui:define>
+	</ui:define>
 </ui:composition>
