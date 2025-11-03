@@ -23,15 +23,22 @@
 		<!-- Value vou vincular o meu managedBean com uma propriedade que me tras o propriedades empresas -->
 		<!-- Criando uma variavel para cada item na lista ele coloca na variavel empresa -->
 		<h:form>
+			<p:messages autoUpdate="true"/>
+		
 			<p:toolbar>
 				<f:facet name="left">
-					<p:inputText placeholder="Texto aqui..."  size="30"/>
-					<p:commandButton value="Pesquisar" icon="fa fa fa-search" />
-					<span class="ui-separator"> <span
-						class="ui-icon ui-icon-grip-dotted-vertical"></span>
+					<p:inputText placeholder="Texto aqui..."  
+						size="30" value="#{gestaoEmpresasBean.termoPesquisa}"/>
+						
+					<p:commandButton value="Pesquisar" icon="fa fa-search" 
+						actionListener="#{gestaoEmpresasBean.pesquisar}" update="empresasDataTable"/>
+					
+					<span class="ui-separator"> 
+						<span class="ui-icon ui-icon-grip-dotted-vertical"></span>
 					</span>
 
-					<p:commandButton value="Nova" icon="fa fa-plus" />
+					<p:commandButton value="Nova" icon="fa fa-plus" 
+						onclick="PF('empresaDialogWidgetVar').show()"/>
 
 					<span class="ui-separator"> <span
 						class="ui-icon ui-icon-grip-dotted-vertical"></span>
@@ -50,7 +57,7 @@
 			
 			<p:spacer height="20px"/>
 			
-			<p:dataTable value="#{gestaoEmpresasBean.listaEmpresas}"
+			<p:dataTable id="empresasDataTable" value="#{gestaoEmpresasBean.listaEmpresas}"
 				var="empresa" emptyMessage="Nenhum dado exibido" paginator="true"
 				rows="10" paginatorPosition="botton">
 
@@ -70,6 +77,11 @@
 					<h:outputText value="#{empresa.ramoAtividade.descricao}" />
 				</p:column>
 			</p:dataTable>
+			<!-- Caixa de dialogo -->
+			<p:dialog header="Nova empresa" widgetVar="empresaDialogWidgetVar"
+				modal="true" resizable="false" closeOnEscape="true">
+				<p:commandButton value="Empresa"/>		
+			</p:dialog>
 		</h:form>
 
 	</ui:define>
