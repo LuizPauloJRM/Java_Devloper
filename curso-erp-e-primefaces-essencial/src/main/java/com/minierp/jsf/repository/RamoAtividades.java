@@ -1,18 +1,20 @@
 package com.minierp.jsf.repository;
-
-import java.io.Serializable;
-import java.util.List;
-
+import com.minierp.jsf.model.RamoAtividade;
+import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
-import com.minierp.jsf.model.RamoAtividade;
+import java.io.Serializable;
+import java.util.List;
 
-public class RamoAtividades implements Serializable{
+public class RamoAtividades implements Serializable {
+
 	private static final long serialVersionUID = 1L;
+	
+	@Inject
 	private EntityManager manager;
 
 	public RamoAtividades() {
@@ -22,19 +24,17 @@ public class RamoAtividades implements Serializable{
 	public RamoAtividades(EntityManager manager) {
 		this.manager = manager;
 	}
-
+	
 	public List<RamoAtividade> pesquisar(String descricao) {
 		CriteriaBuilder criteriaBuilder = manager.getCriteriaBuilder();
-
-		CriteriaQuery<RamoAtividade> criteriaQuery = criteriaBuilder.createQuery(RamoAtividade.class);
-		Root<RamoAtividade> root = criteriaQuery.from(RamoAtividade.class);
-		/*Select do banco ,select ra. * from ramo_atividade ra; */
-		criteriaQuery.select(root);
-		/*por descrição "like" , buscar por todas empresa com letra determinada*/
-		criteriaQuery.where(criteriaBuilder.like(root.get("descricao"), descricao + "%"));
-
+		
+		CriteriaQuery<RamoAtividade> criteriaQuery = criteriaBuilder.createQuery(RamoAtividade.class);		
+		Root<RamoAtividade> root = criteriaQuery.from(RamoAtividade.class);			
+		criteriaQuery.select(root);				
+		criteriaQuery.where(criteriaBuilder.like(root.get("descricao"), descricao + "%"));		
+		
 		TypedQuery<RamoAtividade> query = manager.createQuery(criteriaQuery);
-
+		
 		return query.getResultList();
 	}
 }

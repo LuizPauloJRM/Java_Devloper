@@ -14,6 +14,7 @@ import com.minierp.jsf.model.RamoAtividade;
 import com.minierp.jsf.model.TipoEmpresa;
 import com.minierp.jsf.repository.Empresas;
 import com.minierp.jsf.repository.RamoAtividades;
+import com.minierp.jsf.service.CadastroEmpresaService;
 import com.minierp.jsf.util.FacesMessages;
 
 /**
@@ -34,6 +35,9 @@ public class GestaoEmpresasBean implements Serializable {
     private FacesMessages messages;
     
     @Inject
+    private CadastroEmpresaService cadastroEmpresaService;
+    
+    @Inject
     private RamoAtividades ramoAtividades;
     
     
@@ -41,7 +45,23 @@ public class GestaoEmpresasBean implements Serializable {
     
     private String termoPesquisa;
     
-    private Converter ramoAtividadeConverter;
+    private Converter ramoAtividadeConverter; 
+    
+    //Propriedade para vincular o formulario com meu ManagedBean 
+    private Empresa empresa;
+    
+    public void prepararNovaEmpresa() {
+    	empresa = new Empresa();
+    }
+    
+    public void salvar () {
+    	cadastroEmpresaService.salvar(empresa); 
+    	if(jaHouvePesquisa()) {
+    		pesquisar();
+    		
+    	}
+    	messages.info("Empresa cadastrada com sucesso!");
+    }
     
     public void pesquisar() {
     	listaEmpresas = empresas.pesquisar(termoPesquisa);
@@ -65,6 +85,10 @@ public class GestaoEmpresasBean implements Serializable {
         return listaRamoAtividades;
     }
     
+    private boolean jaHouvePesquisa() {
+    	return termoPesquisa != null && !"".equals(termoPesquisa); 
+    }
+    
     public List<Empresa> getListaEmpresas() {
 		return listaEmpresas;
 	}
@@ -81,6 +105,9 @@ public class GestaoEmpresasBean implements Serializable {
     }
     public Converter getRamoAtividadeConverter() {
 		return ramoAtividadeConverter;
+	}
+    public Empresa getEmpresa() {
+		return empresa;
 	}
     
 }
