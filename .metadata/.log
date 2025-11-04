@@ -6,142 +6,10 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-This is a continuation of log file D:\Luiz Paulo\Desenvolvedor_FullStack\Projetos\Java_Fullstack\.metadata\.bak_4.log
-Created Time: 2025-11-04 17:32:40.570
+This is a continuation of log file D:\Luiz Paulo\Desenvolvedor_FullStack\Projetos\Java_Fullstack\.metadata\.bak_1.log
+Created Time: 2025-11-04 18:06:57.445
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:32:40.571
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:32:40.573
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:32:40.575
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:32:40.576
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:32:48.097
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:32:48.099
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:32:48.100
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:32:48.103
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:33:00.144
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:33:00.146
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:33:00.148
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:33:00.149
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:34:06.002
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:34:06.004
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:34:06.006
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:34:06.007
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:36:40.401
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:36:40.403
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:36:40.404
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:36:40.405
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:37:03.550
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:37:03.554
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:37:03.556
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:37:03.558
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:37:07.360
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:37:07.363
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:37:07.364
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:37:07.365
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:37:27.659
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:37:27.661
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:37:27.662
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:37:27.664
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:38:18.682
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:38:18.683
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:38:18.684
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:38:18.685
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:39:20.412
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:39:20.414
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:39:20.416
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:39:20.417
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:39:41.293
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:39:41.295
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:39:41.296
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:39:41.297
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.501
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.446
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -201,7 +69,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.515
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.465
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -261,7 +129,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.529
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.482
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -321,7 +189,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.580
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.501
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -381,7 +249,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.595
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.517
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -441,7 +309,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.609
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.535
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -501,7 +369,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.624
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.556
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -561,7 +429,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.638
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.574
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -621,7 +489,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.653
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.591
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -681,7 +549,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.670
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.610
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -741,7 +609,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.684
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.629
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -801,7 +669,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.699
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.646
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -861,7 +729,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.722
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.665
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -921,7 +789,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.734
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.682
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -981,7 +849,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.746
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.698
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -1041,7 +909,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.762
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.716
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -1101,7 +969,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.775
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.731
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -1161,7 +1029,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.787
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.746
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -1221,727 +1089,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.796
-!MESSAGE Error creating base name for: com.algaworks.erp.Messages
-!STACK 0
-java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.createCachedBundleFile(ResourceBundleMapSource.java:237)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.<init>(ResourceBundleMapSource.java:255)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSourceFactory.getResourceBundleMapSource(ResourceBundleMapSourceFactory.java:46)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.createSymbolForResourceBundle(ResourceBundleSymbolSourceProvider.java:116)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.getSymbols(ResourceBundleSymbolSourceProvider.java:88)
-	at org.eclipse.jst.jsf.designtime.context.DTJSPExternalContext.doGetMapForScope(DTJSPExternalContext.java:89)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getMapForScope(AbstractDTExternalContext.java:48)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getRequestMap(AbstractDTExternalContext.java:66)
-	at org.eclipse.jst.jsf.designtime.el.DefaultDTVariableResolver.resolveVariable(DefaultDTVariableResolver.java:69)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ConfigBasedDTVariableResolver.resolveVariable(ConfigBasedDTVariableResolver.java:110)
-	at org.eclipse.jst.jsf.designtime.resolver.SymbolContextResolver.getVariable(SymbolContextResolver.java:63)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:356)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValuePrefix.jjtAccept(ASTValuePrefix.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:326)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValue.jjtAccept(ASTValue.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:279)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTUnaryExpression.jjtAccept(ASTUnaryExpression.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:177)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTExpression.jjtAccept(ASTExpression.java:30)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.validate(ASTSemanticValidator.java:111)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateSemantics(ELExpressionValidator.java:185)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateXMLNode(ELExpressionValidator.java:82)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateELExpression(AttributeValidatingStrategy.java:377)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateEl(AttributeValidatingStrategy.java:291)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.checkIfELAndValidate(AttributeValidatingStrategy.java:207)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy$1.run(AttributeValidatingStrategy.java:187)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateAttributeValue(AttributeValidatingStrategy.java:171)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validate(AttributeValidatingStrategy.java:147)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateTag(XMLViewDefnValidator.java:101)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateRegions(XMLViewDefnValidator.java:179)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateView(XMLViewDefnValidator.java:136)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.DefaultFaceletValidationStrategy.doValidate(DefaultFaceletValidationStrategy.java:54)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.AbstractFaceletValidationStrategy.validateFile(AbstractFaceletValidationStrategy.java:108)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.HTMLValidator.validate(HTMLValidator.java:69)
-	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
-	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.805
-!MESSAGE Error creating base name for: com.algaworks.erp.Messages
-!STACK 0
-java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.createCachedBundleFile(ResourceBundleMapSource.java:237)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.<init>(ResourceBundleMapSource.java:255)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSourceFactory.getResourceBundleMapSource(ResourceBundleMapSourceFactory.java:46)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.createSymbolForResourceBundle(ResourceBundleSymbolSourceProvider.java:116)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.getSymbols(ResourceBundleSymbolSourceProvider.java:88)
-	at org.eclipse.jst.jsf.designtime.context.DTJSPExternalContext.doGetMapForScope(DTJSPExternalContext.java:89)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getMapForScope(AbstractDTExternalContext.java:48)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getSessionMap(AbstractDTExternalContext.java:74)
-	at org.eclipse.jst.jsf.designtime.el.DefaultDTVariableResolver.resolveVariable(DefaultDTVariableResolver.java:74)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ConfigBasedDTVariableResolver.resolveVariable(ConfigBasedDTVariableResolver.java:110)
-	at org.eclipse.jst.jsf.designtime.resolver.SymbolContextResolver.getVariable(SymbolContextResolver.java:63)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:356)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValuePrefix.jjtAccept(ASTValuePrefix.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:326)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValue.jjtAccept(ASTValue.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:279)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTUnaryExpression.jjtAccept(ASTUnaryExpression.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:177)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTExpression.jjtAccept(ASTExpression.java:30)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.validate(ASTSemanticValidator.java:111)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateSemantics(ELExpressionValidator.java:185)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateXMLNode(ELExpressionValidator.java:82)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateELExpression(AttributeValidatingStrategy.java:377)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateEl(AttributeValidatingStrategy.java:291)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.checkIfELAndValidate(AttributeValidatingStrategy.java:207)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy$1.run(AttributeValidatingStrategy.java:187)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateAttributeValue(AttributeValidatingStrategy.java:171)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validate(AttributeValidatingStrategy.java:147)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateTag(XMLViewDefnValidator.java:101)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateRegions(XMLViewDefnValidator.java:179)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateView(XMLViewDefnValidator.java:136)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.DefaultFaceletValidationStrategy.doValidate(DefaultFaceletValidationStrategy.java:54)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.AbstractFaceletValidationStrategy.validateFile(AbstractFaceletValidationStrategy.java:108)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.HTMLValidator.validate(HTMLValidator.java:69)
-	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
-	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.816
-!MESSAGE Error creating base name for: com.algaworks.erp.Messages
-!STACK 0
-java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.createCachedBundleFile(ResourceBundleMapSource.java:237)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.<init>(ResourceBundleMapSource.java:255)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSourceFactory.getResourceBundleMapSource(ResourceBundleMapSourceFactory.java:46)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.createSymbolForResourceBundle(ResourceBundleSymbolSourceProvider.java:116)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.getSymbols(ResourceBundleSymbolSourceProvider.java:88)
-	at org.eclipse.jst.jsf.designtime.context.DTJSPExternalContext.doGetMapForScope(DTJSPExternalContext.java:89)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getMapForScope(AbstractDTExternalContext.java:48)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getApplicationMap(AbstractDTExternalContext.java:82)
-	at org.eclipse.jst.jsf.designtime.el.DefaultDTVariableResolver.resolveVariable(DefaultDTVariableResolver.java:79)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ConfigBasedDTVariableResolver.resolveVariable(ConfigBasedDTVariableResolver.java:110)
-	at org.eclipse.jst.jsf.designtime.resolver.SymbolContextResolver.getVariable(SymbolContextResolver.java:63)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:356)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValuePrefix.jjtAccept(ASTValuePrefix.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:326)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValue.jjtAccept(ASTValue.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:279)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTUnaryExpression.jjtAccept(ASTUnaryExpression.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:177)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTExpression.jjtAccept(ASTExpression.java:30)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.validate(ASTSemanticValidator.java:111)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateSemantics(ELExpressionValidator.java:185)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateXMLNode(ELExpressionValidator.java:82)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateELExpression(AttributeValidatingStrategy.java:377)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateEl(AttributeValidatingStrategy.java:291)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.checkIfELAndValidate(AttributeValidatingStrategy.java:207)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy$1.run(AttributeValidatingStrategy.java:187)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateAttributeValue(AttributeValidatingStrategy.java:171)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validate(AttributeValidatingStrategy.java:147)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateTag(XMLViewDefnValidator.java:101)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateRegions(XMLViewDefnValidator.java:179)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateView(XMLViewDefnValidator.java:136)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.DefaultFaceletValidationStrategy.doValidate(DefaultFaceletValidationStrategy.java:54)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.AbstractFaceletValidationStrategy.validateFile(AbstractFaceletValidationStrategy.java:108)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.HTMLValidator.validate(HTMLValidator.java:69)
-	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
-	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.826
-!MESSAGE Error creating base name for: com.algaworks.erp.Messages
-!STACK 0
-java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.createCachedBundleFile(ResourceBundleMapSource.java:237)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.<init>(ResourceBundleMapSource.java:255)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSourceFactory.getResourceBundleMapSource(ResourceBundleMapSourceFactory.java:46)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.createSymbolForResourceBundle(ResourceBundleSymbolSourceProvider.java:116)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.getSymbols(ResourceBundleSymbolSourceProvider.java:88)
-	at org.eclipse.jst.jsf.designtime.context.DTJSPExternalContext.doGetMapForScope(DTJSPExternalContext.java:89)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getMapForScope(AbstractDTExternalContext.java:48)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getRequestMap(AbstractDTExternalContext.java:66)
-	at org.eclipse.jst.jsf.designtime.el.DefaultDTVariableResolver.resolveVariable(DefaultDTVariableResolver.java:69)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ConfigBasedDTVariableResolver.resolveVariable(ConfigBasedDTVariableResolver.java:110)
-	at org.eclipse.jst.jsf.designtime.resolver.SymbolContextResolver.getVariable(SymbolContextResolver.java:63)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:356)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValuePrefix.jjtAccept(ASTValuePrefix.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:326)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValue.jjtAccept(ASTValue.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:279)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTUnaryExpression.jjtAccept(ASTUnaryExpression.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:177)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTExpression.jjtAccept(ASTExpression.java:30)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.validate(ASTSemanticValidator.java:111)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateSemantics(ELExpressionValidator.java:185)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateXMLNode(ELExpressionValidator.java:82)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateELExpression(AttributeValidatingStrategy.java:377)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateEl(AttributeValidatingStrategy.java:291)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.checkIfELAndValidate(AttributeValidatingStrategy.java:207)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy$1.run(AttributeValidatingStrategy.java:187)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateAttributeValue(AttributeValidatingStrategy.java:171)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validate(AttributeValidatingStrategy.java:147)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateTag(XMLViewDefnValidator.java:101)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateRegions(XMLViewDefnValidator.java:179)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateView(XMLViewDefnValidator.java:136)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.DefaultFaceletValidationStrategy.doValidate(DefaultFaceletValidationStrategy.java:54)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.AbstractFaceletValidationStrategy.validateFile(AbstractFaceletValidationStrategy.java:108)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.HTMLValidator.validate(HTMLValidator.java:69)
-	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
-	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.836
-!MESSAGE Error creating base name for: com.algaworks.erp.Messages
-!STACK 0
-java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.createCachedBundleFile(ResourceBundleMapSource.java:237)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.<init>(ResourceBundleMapSource.java:255)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSourceFactory.getResourceBundleMapSource(ResourceBundleMapSourceFactory.java:46)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.createSymbolForResourceBundle(ResourceBundleSymbolSourceProvider.java:116)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.getSymbols(ResourceBundleSymbolSourceProvider.java:88)
-	at org.eclipse.jst.jsf.designtime.context.DTJSPExternalContext.doGetMapForScope(DTJSPExternalContext.java:89)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getMapForScope(AbstractDTExternalContext.java:48)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getSessionMap(AbstractDTExternalContext.java:74)
-	at org.eclipse.jst.jsf.designtime.el.DefaultDTVariableResolver.resolveVariable(DefaultDTVariableResolver.java:74)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ConfigBasedDTVariableResolver.resolveVariable(ConfigBasedDTVariableResolver.java:110)
-	at org.eclipse.jst.jsf.designtime.resolver.SymbolContextResolver.getVariable(SymbolContextResolver.java:63)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:356)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValuePrefix.jjtAccept(ASTValuePrefix.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:326)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValue.jjtAccept(ASTValue.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:279)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTUnaryExpression.jjtAccept(ASTUnaryExpression.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:177)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTExpression.jjtAccept(ASTExpression.java:30)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.validate(ASTSemanticValidator.java:111)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateSemantics(ELExpressionValidator.java:185)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateXMLNode(ELExpressionValidator.java:82)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateELExpression(AttributeValidatingStrategy.java:377)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateEl(AttributeValidatingStrategy.java:291)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.checkIfELAndValidate(AttributeValidatingStrategy.java:207)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy$1.run(AttributeValidatingStrategy.java:187)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateAttributeValue(AttributeValidatingStrategy.java:171)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validate(AttributeValidatingStrategy.java:147)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateTag(XMLViewDefnValidator.java:101)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateRegions(XMLViewDefnValidator.java:179)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateView(XMLViewDefnValidator.java:136)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.DefaultFaceletValidationStrategy.doValidate(DefaultFaceletValidationStrategy.java:54)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.AbstractFaceletValidationStrategy.validateFile(AbstractFaceletValidationStrategy.java:108)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.HTMLValidator.validate(HTMLValidator.java:69)
-	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
-	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.849
-!MESSAGE Error creating base name for: com.algaworks.erp.Messages
-!STACK 0
-java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.createCachedBundleFile(ResourceBundleMapSource.java:237)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.<init>(ResourceBundleMapSource.java:255)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSourceFactory.getResourceBundleMapSource(ResourceBundleMapSourceFactory.java:46)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.createSymbolForResourceBundle(ResourceBundleSymbolSourceProvider.java:116)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.getSymbols(ResourceBundleSymbolSourceProvider.java:88)
-	at org.eclipse.jst.jsf.designtime.context.DTJSPExternalContext.doGetMapForScope(DTJSPExternalContext.java:89)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getMapForScope(AbstractDTExternalContext.java:48)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getApplicationMap(AbstractDTExternalContext.java:82)
-	at org.eclipse.jst.jsf.designtime.el.DefaultDTVariableResolver.resolveVariable(DefaultDTVariableResolver.java:79)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ConfigBasedDTVariableResolver.resolveVariable(ConfigBasedDTVariableResolver.java:110)
-	at org.eclipse.jst.jsf.designtime.resolver.SymbolContextResolver.getVariable(SymbolContextResolver.java:63)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:356)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValuePrefix.jjtAccept(ASTValuePrefix.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:326)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValue.jjtAccept(ASTValue.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:279)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTUnaryExpression.jjtAccept(ASTUnaryExpression.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:177)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTExpression.jjtAccept(ASTExpression.java:30)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.validate(ASTSemanticValidator.java:111)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateSemantics(ELExpressionValidator.java:185)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateXMLNode(ELExpressionValidator.java:82)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateELExpression(AttributeValidatingStrategy.java:377)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateEl(AttributeValidatingStrategy.java:291)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.checkIfELAndValidate(AttributeValidatingStrategy.java:207)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy$1.run(AttributeValidatingStrategy.java:187)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateAttributeValue(AttributeValidatingStrategy.java:171)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validate(AttributeValidatingStrategy.java:147)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateTag(XMLViewDefnValidator.java:101)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateRegions(XMLViewDefnValidator.java:179)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateView(XMLViewDefnValidator.java:136)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.DefaultFaceletValidationStrategy.doValidate(DefaultFaceletValidationStrategy.java:54)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.AbstractFaceletValidationStrategy.validateFile(AbstractFaceletValidationStrategy.java:108)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.HTMLValidator.validate(HTMLValidator.java:69)
-	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
-	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.865
-!MESSAGE Error creating base name for: com.algaworks.erp.Messages
-!STACK 0
-java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.createCachedBundleFile(ResourceBundleMapSource.java:237)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.<init>(ResourceBundleMapSource.java:255)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSourceFactory.getResourceBundleMapSource(ResourceBundleMapSourceFactory.java:46)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.createSymbolForResourceBundle(ResourceBundleSymbolSourceProvider.java:116)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.getSymbols(ResourceBundleSymbolSourceProvider.java:88)
-	at org.eclipse.jst.jsf.designtime.context.DTJSPExternalContext.doGetMapForScope(DTJSPExternalContext.java:89)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getMapForScope(AbstractDTExternalContext.java:48)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getRequestMap(AbstractDTExternalContext.java:66)
-	at org.eclipse.jst.jsf.designtime.el.DefaultDTVariableResolver.resolveVariable(DefaultDTVariableResolver.java:69)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ConfigBasedDTVariableResolver.resolveVariable(ConfigBasedDTVariableResolver.java:110)
-	at org.eclipse.jst.jsf.designtime.resolver.SymbolContextResolver.getVariable(SymbolContextResolver.java:63)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:356)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValuePrefix.jjtAccept(ASTValuePrefix.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:326)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValue.jjtAccept(ASTValue.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:279)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTUnaryExpression.jjtAccept(ASTUnaryExpression.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:177)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTExpression.jjtAccept(ASTExpression.java:30)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.validate(ASTSemanticValidator.java:111)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateSemantics(ELExpressionValidator.java:185)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateXMLNode(ELExpressionValidator.java:82)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateELExpression(AttributeValidatingStrategy.java:377)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateEl(AttributeValidatingStrategy.java:291)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.checkIfELAndValidate(AttributeValidatingStrategy.java:207)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy$1.run(AttributeValidatingStrategy.java:187)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateAttributeValue(AttributeValidatingStrategy.java:171)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validate(AttributeValidatingStrategy.java:147)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateTag(XMLViewDefnValidator.java:101)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateRegions(XMLViewDefnValidator.java:179)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateView(XMLViewDefnValidator.java:136)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.DefaultFaceletValidationStrategy.doValidate(DefaultFaceletValidationStrategy.java:54)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.AbstractFaceletValidationStrategy.validateFile(AbstractFaceletValidationStrategy.java:108)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.HTMLValidator.validate(HTMLValidator.java:69)
-	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
-	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.881
-!MESSAGE Error creating base name for: com.algaworks.erp.Messages
-!STACK 0
-java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.createCachedBundleFile(ResourceBundleMapSource.java:237)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.<init>(ResourceBundleMapSource.java:255)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSourceFactory.getResourceBundleMapSource(ResourceBundleMapSourceFactory.java:46)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.createSymbolForResourceBundle(ResourceBundleSymbolSourceProvider.java:116)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.getSymbols(ResourceBundleSymbolSourceProvider.java:88)
-	at org.eclipse.jst.jsf.designtime.context.DTJSPExternalContext.doGetMapForScope(DTJSPExternalContext.java:89)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getMapForScope(AbstractDTExternalContext.java:48)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getSessionMap(AbstractDTExternalContext.java:74)
-	at org.eclipse.jst.jsf.designtime.el.DefaultDTVariableResolver.resolveVariable(DefaultDTVariableResolver.java:74)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ConfigBasedDTVariableResolver.resolveVariable(ConfigBasedDTVariableResolver.java:110)
-	at org.eclipse.jst.jsf.designtime.resolver.SymbolContextResolver.getVariable(SymbolContextResolver.java:63)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:356)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValuePrefix.jjtAccept(ASTValuePrefix.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:326)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValue.jjtAccept(ASTValue.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:279)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTUnaryExpression.jjtAccept(ASTUnaryExpression.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:177)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTExpression.jjtAccept(ASTExpression.java:30)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.validate(ASTSemanticValidator.java:111)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateSemantics(ELExpressionValidator.java:185)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateXMLNode(ELExpressionValidator.java:82)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateELExpression(AttributeValidatingStrategy.java:377)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateEl(AttributeValidatingStrategy.java:291)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.checkIfELAndValidate(AttributeValidatingStrategy.java:207)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy$1.run(AttributeValidatingStrategy.java:187)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateAttributeValue(AttributeValidatingStrategy.java:171)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validate(AttributeValidatingStrategy.java:147)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateTag(XMLViewDefnValidator.java:101)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateRegions(XMLViewDefnValidator.java:179)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateView(XMLViewDefnValidator.java:136)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.DefaultFaceletValidationStrategy.doValidate(DefaultFaceletValidationStrategy.java:54)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.AbstractFaceletValidationStrategy.validateFile(AbstractFaceletValidationStrategy.java:108)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.HTMLValidator.validate(HTMLValidator.java:69)
-	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
-	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.895
-!MESSAGE Error creating base name for: com.algaworks.erp.Messages
-!STACK 0
-java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.createCachedBundleFile(ResourceBundleMapSource.java:237)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.<init>(ResourceBundleMapSource.java:255)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSourceFactory.getResourceBundleMapSource(ResourceBundleMapSourceFactory.java:46)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.createSymbolForResourceBundle(ResourceBundleSymbolSourceProvider.java:116)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.getSymbols(ResourceBundleSymbolSourceProvider.java:88)
-	at org.eclipse.jst.jsf.designtime.context.DTJSPExternalContext.doGetMapForScope(DTJSPExternalContext.java:89)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getMapForScope(AbstractDTExternalContext.java:48)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getApplicationMap(AbstractDTExternalContext.java:82)
-	at org.eclipse.jst.jsf.designtime.el.DefaultDTVariableResolver.resolveVariable(DefaultDTVariableResolver.java:79)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ConfigBasedDTVariableResolver.resolveVariable(ConfigBasedDTVariableResolver.java:110)
-	at org.eclipse.jst.jsf.designtime.resolver.SymbolContextResolver.getVariable(SymbolContextResolver.java:63)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:356)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValuePrefix.jjtAccept(ASTValuePrefix.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:326)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValue.jjtAccept(ASTValue.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:279)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTUnaryExpression.jjtAccept(ASTUnaryExpression.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:177)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTExpression.jjtAccept(ASTExpression.java:30)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.validate(ASTSemanticValidator.java:111)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateSemantics(ELExpressionValidator.java:185)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateXMLNode(ELExpressionValidator.java:82)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateELExpression(AttributeValidatingStrategy.java:377)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateEl(AttributeValidatingStrategy.java:291)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.checkIfELAndValidate(AttributeValidatingStrategy.java:207)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy$1.run(AttributeValidatingStrategy.java:187)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateAttributeValue(AttributeValidatingStrategy.java:171)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validate(AttributeValidatingStrategy.java:147)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateTag(XMLViewDefnValidator.java:101)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateRegions(XMLViewDefnValidator.java:179)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateView(XMLViewDefnValidator.java:136)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.DefaultFaceletValidationStrategy.doValidate(DefaultFaceletValidationStrategy.java:54)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.AbstractFaceletValidationStrategy.validateFile(AbstractFaceletValidationStrategy.java:108)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.HTMLValidator.validate(HTMLValidator.java:69)
-	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
-	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.910
-!MESSAGE Error creating base name for: com.algaworks.erp.Messages
-!STACK 0
-java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.createCachedBundleFile(ResourceBundleMapSource.java:237)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.<init>(ResourceBundleMapSource.java:255)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSourceFactory.getResourceBundleMapSource(ResourceBundleMapSourceFactory.java:46)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.createSymbolForResourceBundle(ResourceBundleSymbolSourceProvider.java:116)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.getSymbols(ResourceBundleSymbolSourceProvider.java:88)
-	at org.eclipse.jst.jsf.designtime.context.DTJSPExternalContext.doGetMapForScope(DTJSPExternalContext.java:89)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getMapForScope(AbstractDTExternalContext.java:48)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getRequestMap(AbstractDTExternalContext.java:66)
-	at org.eclipse.jst.jsf.designtime.el.DefaultDTVariableResolver.resolveVariable(DefaultDTVariableResolver.java:69)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ConfigBasedDTVariableResolver.resolveVariable(ConfigBasedDTVariableResolver.java:110)
-	at org.eclipse.jst.jsf.designtime.resolver.SymbolContextResolver.getVariable(SymbolContextResolver.java:63)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:356)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValuePrefix.jjtAccept(ASTValuePrefix.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:326)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValue.jjtAccept(ASTValue.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:279)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTUnaryExpression.jjtAccept(ASTUnaryExpression.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:177)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTExpression.jjtAccept(ASTExpression.java:30)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.validate(ASTSemanticValidator.java:111)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateSemantics(ELExpressionValidator.java:185)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateXMLNode(ELExpressionValidator.java:82)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateELExpression(AttributeValidatingStrategy.java:377)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateEl(AttributeValidatingStrategy.java:291)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.checkIfELAndValidate(AttributeValidatingStrategy.java:207)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy$1.run(AttributeValidatingStrategy.java:187)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateAttributeValue(AttributeValidatingStrategy.java:171)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validate(AttributeValidatingStrategy.java:147)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateTag(XMLViewDefnValidator.java:101)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateRegions(XMLViewDefnValidator.java:179)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateView(XMLViewDefnValidator.java:136)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.DefaultFaceletValidationStrategy.doValidate(DefaultFaceletValidationStrategy.java:54)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.AbstractFaceletValidationStrategy.validateFile(AbstractFaceletValidationStrategy.java:108)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.HTMLValidator.validate(HTMLValidator.java:69)
-	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
-	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.922
-!MESSAGE Error creating base name for: com.algaworks.erp.Messages
-!STACK 0
-java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.createCachedBundleFile(ResourceBundleMapSource.java:237)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.<init>(ResourceBundleMapSource.java:255)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSourceFactory.getResourceBundleMapSource(ResourceBundleMapSourceFactory.java:46)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.createSymbolForResourceBundle(ResourceBundleSymbolSourceProvider.java:116)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.getSymbols(ResourceBundleSymbolSourceProvider.java:88)
-	at org.eclipse.jst.jsf.designtime.context.DTJSPExternalContext.doGetMapForScope(DTJSPExternalContext.java:89)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getMapForScope(AbstractDTExternalContext.java:48)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getSessionMap(AbstractDTExternalContext.java:74)
-	at org.eclipse.jst.jsf.designtime.el.DefaultDTVariableResolver.resolveVariable(DefaultDTVariableResolver.java:74)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ConfigBasedDTVariableResolver.resolveVariable(ConfigBasedDTVariableResolver.java:110)
-	at org.eclipse.jst.jsf.designtime.resolver.SymbolContextResolver.getVariable(SymbolContextResolver.java:63)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:356)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValuePrefix.jjtAccept(ASTValuePrefix.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:326)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValue.jjtAccept(ASTValue.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:279)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTUnaryExpression.jjtAccept(ASTUnaryExpression.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:177)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTExpression.jjtAccept(ASTExpression.java:30)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.validate(ASTSemanticValidator.java:111)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateSemantics(ELExpressionValidator.java:185)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateXMLNode(ELExpressionValidator.java:82)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateELExpression(AttributeValidatingStrategy.java:377)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateEl(AttributeValidatingStrategy.java:291)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.checkIfELAndValidate(AttributeValidatingStrategy.java:207)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy$1.run(AttributeValidatingStrategy.java:187)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateAttributeValue(AttributeValidatingStrategy.java:171)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validate(AttributeValidatingStrategy.java:147)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateTag(XMLViewDefnValidator.java:101)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateRegions(XMLViewDefnValidator.java:179)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateView(XMLViewDefnValidator.java:136)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.DefaultFaceletValidationStrategy.doValidate(DefaultFaceletValidationStrategy.java:54)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.AbstractFaceletValidationStrategy.validateFile(AbstractFaceletValidationStrategy.java:108)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.HTMLValidator.validate(HTMLValidator.java:69)
-	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
-	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.937
-!MESSAGE Error creating base name for: com.algaworks.erp.Messages
-!STACK 0
-java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.createCachedBundleFile(ResourceBundleMapSource.java:237)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSource.<init>(ResourceBundleMapSource.java:255)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleMapSourceFactory.getResourceBundleMapSource(ResourceBundleMapSourceFactory.java:46)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.createSymbolForResourceBundle(ResourceBundleSymbolSourceProvider.java:116)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ResourceBundleSymbolSourceProvider.getSymbols(ResourceBundleSymbolSourceProvider.java:88)
-	at org.eclipse.jst.jsf.designtime.context.DTJSPExternalContext.doGetMapForScope(DTJSPExternalContext.java:89)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getMapForScope(AbstractDTExternalContext.java:48)
-	at org.eclipse.jst.jsf.designtime.context.AbstractDTExternalContext.getApplicationMap(AbstractDTExternalContext.java:82)
-	at org.eclipse.jst.jsf.designtime.el.DefaultDTVariableResolver.resolveVariable(DefaultDTVariableResolver.java:79)
-	at org.eclipse.jst.jsf.designtime.internal.symbols.ConfigBasedDTVariableResolver.resolveVariable(ConfigBasedDTVariableResolver.java:110)
-	at org.eclipse.jst.jsf.designtime.resolver.SymbolContextResolver.getVariable(SymbolContextResolver.java:63)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:356)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValuePrefix.jjtAccept(ASTValuePrefix.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:326)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValue.jjtAccept(ASTValue.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:279)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTUnaryExpression.jjtAccept(ASTUnaryExpression.java:30)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:72)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.visit(ASTSemanticValidator.java:177)
-	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTExpression.jjtAccept(ASTExpression.java:30)
-	at org.eclipse.jst.jsf.validation.internal.el.ASTSemanticValidator.validate(ASTSemanticValidator.java:111)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateSemantics(ELExpressionValidator.java:185)
-	at org.eclipse.jst.jsf.validation.internal.el.ELExpressionValidator.validateXMLNode(ELExpressionValidator.java:82)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateELExpression(AttributeValidatingStrategy.java:377)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateEl(AttributeValidatingStrategy.java:291)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.checkIfELAndValidate(AttributeValidatingStrategy.java:207)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy$1.run(AttributeValidatingStrategy.java:187)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateAttributeValue(AttributeValidatingStrategy.java:171)
-	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validate(AttributeValidatingStrategy.java:147)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateTag(XMLViewDefnValidator.java:101)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateRegions(XMLViewDefnValidator.java:179)
-	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateView(XMLViewDefnValidator.java:136)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.DefaultFaceletValidationStrategy.doValidate(DefaultFaceletValidationStrategy.java:54)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.AbstractFaceletValidationStrategy.validateFile(AbstractFaceletValidationStrategy.java:108)
-	at org.eclipse.jst.jsf.facelet.ui.internal.validation.HTMLValidator.validate(HTMLValidator.java:69)
-	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
-	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.958
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.770
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2004,7 +1152,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.973
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.785
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2067,7 +1215,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:41.990
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.801
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2130,7 +1278,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.009
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.822
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2190,7 +1338,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.023
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.839
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2250,7 +1398,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.036
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.853
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2310,7 +1458,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.054
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.873
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2370,7 +1518,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.068
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.891
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2430,7 +1578,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.080
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.905
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2490,7 +1638,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.097
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.928
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2550,7 +1698,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.110
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.945
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2610,7 +1758,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.122
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.962
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2670,7 +1818,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.139
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:57.982
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2730,7 +1878,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.153
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.001
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2790,7 +1938,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.168
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.018
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2850,7 +1998,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.189
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.039
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2910,7 +2058,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.202
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.056
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -2970,7 +2118,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.216
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.076
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3030,7 +2178,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.230
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.097
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3090,7 +2238,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.243
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.113
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3150,7 +2298,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.258
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.130
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3210,7 +2358,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.276
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.152
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3270,7 +2418,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.298
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.168
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3330,7 +2478,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.312
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.186
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3390,7 +2538,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.346
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.236
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3450,7 +2598,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.363
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.253
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3510,7 +2658,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.381
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.269
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3570,7 +2718,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.402
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.288
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3630,7 +2778,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.419
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.305
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3690,7 +2838,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.434
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.321
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3750,7 +2898,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.451
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.340
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3810,7 +2958,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.463
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.355
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3870,7 +3018,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.477
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.371
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3930,7 +3078,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.495
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.387
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -3990,7 +3138,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.545
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.400
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -4050,7 +3198,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.562
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.413
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -4110,7 +3258,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.578
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.428
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -4170,7 +3318,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.591
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.442
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -4230,7 +3378,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.604
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.455
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -4290,7 +3438,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.622
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.470
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -4350,7 +3498,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.637
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.484
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -4410,7 +3558,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.653
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.501
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -4470,7 +3618,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.670
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.517
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -4530,7 +3678,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.685
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.530
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -4590,7 +3738,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:39:42.699
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:06:58.544
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -4650,55 +3798,19 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:40:18.360
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 18:07:02.795
 !MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:40:18.361
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 18:07:02.796
 !MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:40:18.362
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 18:07:02.798
 !MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:40:18.364
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 18:07:02.800
 !MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:40:41.879
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:40:41.881
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:40:41.882
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:40:41.883
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:41:10.815
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:41:10.817
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:41:10.819
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:41:10.820
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:42:02.461
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:42:02.462
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:42:02.463
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:42:02.465
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.645
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:02.955
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -4758,7 +3870,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.660
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.031
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -4818,7 +3930,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.672
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.045
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -4878,7 +3990,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.725
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.068
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -4938,7 +4050,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.740
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.083
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -4998,7 +4110,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.752
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.097
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -5058,7 +4170,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.766
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.116
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -5118,7 +4230,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.779
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.132
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -5178,7 +4290,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.791
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.149
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -5238,7 +4350,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.805
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.170
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -5298,7 +4410,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.816
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.187
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -5358,7 +4470,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.827
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.203
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -5418,7 +4530,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.850
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.226
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -5478,7 +4590,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.862
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.241
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -5538,7 +4650,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.873
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.258
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -5598,7 +4710,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.887
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.276
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -5658,7 +4770,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.898
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.292
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -5718,7 +4830,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.911
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.306
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -5778,7 +4890,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.925
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.323
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -5838,7 +4950,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.936
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.339
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -5898,7 +5010,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.947
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.351
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -5958,7 +5070,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.961
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.370
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6018,7 +5130,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.974
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.386
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6078,7 +5190,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:02.987
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.404
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6138,7 +5250,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.003
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.422
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6198,7 +5310,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.016
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.437
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6258,7 +5370,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.029
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.453
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6318,7 +5430,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.044
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.472
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6378,7 +5490,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.059
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.487
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6438,7 +5550,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.072
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.503
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6498,7 +5610,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.091
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.528
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6561,7 +5673,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.103
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.546
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6624,7 +5736,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.116
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.563
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6687,7 +5799,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.135
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.589
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6747,7 +5859,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.146
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.605
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6807,7 +5919,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.158
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.623
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6867,7 +5979,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.175
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.646
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6927,7 +6039,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.186
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.662
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -6987,7 +6099,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.197
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.679
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -7047,7 +6159,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.213
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.703
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -7107,7 +6219,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.226
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.721
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -7167,7 +6279,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.240
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.738
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -7227,7 +6339,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.257
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.761
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -7287,7 +6399,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.270
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.780
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -7347,7 +6459,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.282
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.796
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -7407,7 +6519,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.297
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.819
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -7467,7 +6579,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.310
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.885
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -7527,7 +6639,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.324
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.904
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -7587,7 +6699,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.344
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.926
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -7647,7 +6759,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.358
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.943
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -7707,7 +6819,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.373
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.963
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -7767,7 +6879,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.391
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:03.985
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -7827,7 +6939,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.406
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.001
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -7887,7 +6999,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.420
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.019
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -7947,7 +7059,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.439
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.218
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8007,7 +7119,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.454
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.236
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8067,7 +7179,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.468
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.254
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8127,7 +7239,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.486
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.277
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8187,7 +7299,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.500
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.294
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8247,7 +7359,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.513
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.311
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8307,7 +7419,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.531
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.335
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8367,7 +7479,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.546
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.354
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8427,7 +7539,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.560
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.377
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8487,7 +7599,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.577
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.404
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8547,7 +7659,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.592
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.423
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8607,7 +7719,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.608
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.442
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8667,7 +7779,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.625
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.461
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8727,7 +7839,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.640
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.477
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8787,7 +7899,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.696
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.494
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8847,7 +7959,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.714
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.516
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8907,7 +8019,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.730
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.533
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -8967,7 +8079,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.743
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.550
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -9027,7 +8139,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.763
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.573
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -9087,7 +8199,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.777
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.598
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -9147,7 +8259,7 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 17:42:03.792
+!ENTRY org.eclipse.jst.jsf.core 4 0 2025-11-04 18:07:04.647
 !MESSAGE Error creating base name for: com.algaworks.erp.Messages
 !STACK 0
 java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath for project: curso-erp-e-primefaces-essencial
@@ -9206,66 +8318,3 @@ java.io.IOException: Bundle com.algaworks.erp.Messages not found in classpath fo
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:46:07.555
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:46:07.567
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:46:07.568
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:46:07.569
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:46:18.755
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:46:18.757
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:46:18.759
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:46:18.763
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:50:26.262
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:50:26.264
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:50:26.265
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:50:26.266
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:51:54.487
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:51:54.489
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:51:54.490
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:51:54.491
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:53:28.239
-!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:53:28.241
-!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:53:28.242
-!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-04 17:53:28.244
-!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.jdt.debug 2 0 2025-11-04 17:54:01.991
-!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
