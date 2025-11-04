@@ -11,7 +11,7 @@
 		<message-bundle>com.minierp.jsf.Messages</message-bundle>
 		
 		<resource-bundle>
-			<base-name>com.algaworks.erp.Messages</base-name>
+			<base-name>com.minierp.jsf.Messages</base-name>
 			<var>msgs</var>  <!-- A variável para acessar no XHTML -->
 		</resource-bundle>
 	</application>

@@ -48,9 +48,13 @@
 						class="ui-icon ui-icon-grip-dotted-vertical" />
 					</span>
 
-					<p:commandButton title="Editar" icon="fa fa-edit" />
+						<!-- Habilitar somente quando houver uma linha selecionada  -->
+						<!-- Se nao tiver uma empresa selecionada desabilite -->
+					<p:commandButton title="Editar" icon="fa fa-edit" 
+						disabled="#{not gestaoEmpresasBean.empresaSelecionada}"/>
 
-					<p:commandButton title="Excluir" icon="fa fa-trash" />
+					<p:commandButton title="Excluir" icon="fa fa-trash" 
+						disabled="#{not gestaoEmpresasBean.empresaSelecionada}"/>
 
 					<span class="ui-separator"> <span
 						class="ui-icon ui-icon-grip-dotted-vertical" />
@@ -66,7 +70,8 @@
 			<p:dataTable id="empresasDataTable"
 				value="#{gestaoEmpresasBean.listaEmpresas}" var="empresa"
 				emptyMessage="Nenhuma informação a ser exibida" paginator="true"
-				rows="10" paginatorPosition="bottom">
+				rows="10" paginatorPosition="bottom"
+				selectionMode="multiple" selection="#{gestaoEmpresasBean.empresa}" rowKey="#{empresa.id}">
 				<p:column headerText="Razão social" sortBy="#{empresa.razaoSocial}">
 					<h:outputText value="#{empresa.razaoSocial}" />
 				</p:column>
