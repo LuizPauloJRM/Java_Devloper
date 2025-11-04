@@ -2,12 +2,15 @@ package com.minierp.jsf.controller;
 
 
 import java.io.Serializable;
+import java.util.Arrays;
 import java.util.List;
 
 import javax.faces.convert.Converter;
 import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
+
+import org.primefaces.context.RequestContext;
 
 import com.minierp.jsf.model.Empresa;
 import com.minierp.jsf.model.RamoAtividade;
@@ -57,10 +60,14 @@ public class GestaoEmpresasBean implements Serializable {
     public void salvar () {
     	cadastroEmpresaService.salvar(empresa); 
     	if(jaHouvePesquisa()) {
-    		pesquisar();
-    		
+    		pesquisar();    		
+    	}else {
+    		todasEmpresas();
     	}
-    	messages.info("Empresa cadastrada com sucesso!");
+    	
+    	messages.info("Empresa salva com sucesso!");
+    	
+    	RequestContext.getCurrentInstance().update(Arrays.asList("frm:empresasDataTable","frm:messages"));
     }
     
     public void pesquisar() {
