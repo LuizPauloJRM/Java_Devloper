@@ -20,58 +20,89 @@
 		<!-- Value vou vincular o meu managedBean com uma propriedade que me tras o propriedades empresas -->
 		<!-- Criando uma variavel para cada item na lista ele coloca na variavel empresa -->
 
+		<!-- Formulário principal -->
 		<h:form id="frm">
+
+			<!-- Exibe mensagens do sistema (erros, avisos, confirmações) -->
 			<p:messages id="messages" />
 
-			<p:toolbar>
+			<!-- Barra de ferramentas (ações principais da tela) -->
+			<p:toolbar id="toolbar">
 				<f:facet name="left">
+
+					<!-- Campo de pesquisa -->
 					<p:inputText id="termoPesquisa"
 						placeholder="Digite aqui um termo para pesquisa..." size="30"
 						value="#{gestaoEmpresasBean.termoPesquisa}" />
 
+					<!-- Botão de pesquisa -->
 					<p:commandButton value="Pesquisar" icon="fa fa-search"
 						actionListener="#{gestaoEmpresasBean.pesquisar}"
 						update="empresasDataTable messages" process="@this termoPesquisa" />
 
+					<!-- Separador visual entre os botões -->
 					<span class="ui-separator"> <span
 						class="ui-icon ui-icon-grip-dotted-vertical" />
 					</span>
 
+					<!-- Botão para criar uma nova empresa -->
 					<p:commandButton value="Nova" icon="fa fa-plus"
 						actionListener="#{gestaoEmpresasBean.prepararNovaEmpresa}"
 						oncomplete="PF('empresaDialogWidgetVar').show()"
 						update="empresaDialog" process="@this">
+						<!-- Limpa os campos do diálogo antes de abrir -->
 						<p:resetInput target="empresaDialog" />
 					</p:commandButton>
 
+					<!-- Separador visual -->
 					<span class="ui-separator"> <span
 						class="ui-icon ui-icon-grip-dotted-vertical" />
 					</span>
 
-						<!-- Habilitar somente quando houver uma linha selecionada  -->
-						<!-- Se nao tiver uma empresa selecionada desabilite -->
-					<p:commandButton title="Editar" icon="fa fa-edit" 
-						disabled="#{not gestaoEmpresasBean.empresaSelecionada}"/>
+					<!-- Botão para editar a empresa selecionada -->
+					<p:commandButton title="Editar" icon="fa fa-edit"
+						disabled="#{not gestaoEmpresasBean.empresaSelecionada}"
+						actionListener="#{gestaoEmpresasBean.prepararEdicao}"
+						oncomplete="PF('empresaDialogWidgetVar').show()"
+						update="empresaDialog" process="@this">
+						<!-- Limpa os campos do diálogo antes de abrir -->
+						<p:resetInput target="empresaDialog" />
+					</p:commandButton>
 
-					<p:commandButton title="Excluir" icon="fa fa-trash" 
-						disabled="#{not gestaoEmpresasBean.empresaSelecionada}"/>
+					<!-- Botão para excluir a empresa selecionada -->
+					<p:commandButton title="Excluir" icon="fa fa-trash"
+						disabled="#{not gestaoEmpresasBean.empresaSelecionada}"
+						actionListener="#{gestaoEmpresasBean.excluir}"
+						update="messages empresasDataTable toolbar" process="@this" />
 
+					<!-- Separador visual -->
 					<span class="ui-separator"> <span
 						class="ui-icon ui-icon-grip-dotted-vertical" />
 					</span>
 
+					<!-- Botão para exportar dados para Excel -->
 					<p:commandButton title="Exportar para o Excel"
 						icon="fa fa-file-excel-o" />
 				</f:facet>
 			</p:toolbar>
 
+			<!-- Espaço entre a barra e a tabela -->
 			<p:spacer height="20px" />
 
+			<!-- Tabela que exibe as empresas -->
 			<p:dataTable id="empresasDataTable"
 				value="#{gestaoEmpresasBean.listaEmpresas}" var="empresa"
 				emptyMessage="Nenhuma informação a ser exibida" paginator="true"
-				rows="10" paginatorPosition="bottom"
-				selectionMode="multiple" selection="#{gestaoEmpresasBean.empresa}" rowKey="#{empresa.id}">
+				rows="10" paginatorPosition="bottom" selectionMode="single"
+				selection="#{gestaoEmpresasBean.empresa}" rowKey="#{empresa.id}">
+
+				<!-- Atualiza a toolbar ao selecionar uma linha -->
+				<p:ajax event="rowSelect" update="frm:toolbar" />
+
+				<!-- Atualiza a toolbar ao desselecionar uma linha -->
+				<p:ajax event="rowUnselect" update="frm:toolbar" />
+
+				<!-- Colunas da tabela -->
 				<p:column headerText="Razão social" sortBy="#{empresa.razaoSocial}">
 					<h:outputText value="#{empresa.razaoSocial}" />
 				</p:column>
@@ -89,15 +120,22 @@
 				</p:column>
 			</p:dataTable>
 
+			<!-- Diálogo (janela modal) para cadastrar ou editar empresa -->
 			<p:dialog id="empresaDialog" header="Nova empresa"
 				widgetVar="empresaDialogWidgetVar" modal="true" resizable="false"
 				closeOnEscape="true">
-				<p:messages id="empresaMessages" />				
 
+				<!-- Mensagens do diálogo -->
+				<p:messages id="empresaMessages" />
+
+				<!-- Define o botão padrão ao pressionar Enter -->
 				<p:defaultCommand target="salvarCommandButton" scope="empresaDialog" />
 
+				<!-- Formulário interno do diálogo -->
 				<h:panelGrid id="empresaPanelGrid" columns="2"
 					rendered="#{gestaoEmpresasBean.empresa ne null}">
+
+					<!-- Campos de cadastro -->
 					<p:outputLabel value="Razão social: " for="razaoSocial" />
 					<p:inputText id="razaoSocial" size="80" maxlength="120"
 						value="#{gestaoEmpresasBean.empresa.razaoSocial}" />
@@ -131,6 +169,7 @@
 						var="ramoAtividade" itemLabel="#{ramoAtividade.descricao}"
 						itemValue="#{ramoAtividade}" />
 
+					<!-- Botão de salvar empresa -->
 					<h:outputLabel />
 					<p:commandButton id="salvarCommandButton" value="Salvar"
 						actionListener="#{gestaoEmpresasBean.salvar}"
@@ -140,6 +179,7 @@
 				</h:panelGrid>
 			</p:dialog>
 		</h:form>
+
 	</ui:define>
 
 </ui:composition>
