@@ -1,29 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.enterprise.inject.Disposes"/>
-    <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
-    <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
-    <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
-    <fullyQualifiedTypeName name="javax.interceptor.InvocationContext"/>
-    <fullyQualifiedTypeName name="javax.annotation.Priority"/>
-    <fullyQualifiedTypeName name="javax.interceptor.AroundInvoke"/>
-    <fullyQualifiedTypeName name="javax.interceptor.Interceptor"/>
-    <fullyQualifiedTypeName name="javax.interceptor.Interceptor.Priority"/>
-    <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
-    <fullyQualifiedTypeName name="com.minierp.id.Pedidos"/>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
-    <fullyQualifiedTypeName name="com.minierp.id.RelatorioService"/>
-    <fullyQualifiedTypeName name="javax.jws.WebService"/>
-    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
-    <fullyQualifiedTypeName name="java.io.InputStream"/>
     <fullyQualifiedTypeName name="jakarta.faces.event.NamedEvent"/>
     <fullyQualifiedTypeName name="java.nio.file.Path"/>
     <fullyQualifiedTypeName name="javax.enterprise.context.RequestScoped"/>
     <fullyQualifiedTypeName name="com.minierp.jsf.controller.GestaoEmpresasBean"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
-    <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
     <fullyQualifiedTypeName name="javax.inject.Named"/>
     <fullyQualifiedTypeName name="javax.faces.bean.ViewScoped"/>
@@ -41,7 +22,6 @@
     <fullyQualifiedTypeName name="com.minierp.jsf.repository.RamoAtividades"/>
     <fullyQualifiedTypeName name="javax.faces.convert.Converter"/>
     <fullyQualifiedTypeName name="com.minierp.jsf.service.CadastroEmpresaService"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.math.BigDecimal"/>
     <fullyQualifiedTypeName name="com.minierp.jsf.model.RamoAtividade"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
@@ -60,4 +40,24 @@
     <fullyQualifiedTypeName name="org.primefaces.context.RequestContext"/>
     <fullyQualifiedTypeName name="com.minierp.jsf.controller.RamoAtividadeConverter"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="com.helpdesk.erp.model.Chamado"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="javax.persistence.Temporal"/>
+    <fullyQualifiedTypeName name="javax.persistence.TemporalType"/>
+    <fullyQualifiedTypeName name="org.primefaces.push.Status"/>
+    <fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
+    <fullyQualifiedTypeName name="javax.persistence.EnumType"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.persistence.Query"/>
+    <fullyQualifiedTypeName name="com.helpdesk.erp.util.JPAUtil"/>
 </qualifiedTypeNameHistroy>
